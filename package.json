@@ -1,0 +1,13 @@
+{
+    "name": "fastminds",
+    "version": "1.0.0",
+    "description": "FASTMINDS IT Consulting Company Website",
+    "scripts": {
+        "build:css": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
+        "watch:css": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+        "build": "npm run build:css"
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.4.0"
+    }
+}

@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== BASE STYLES ===== */
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+        @apply font-sans text-dark-text bg-white;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-heading font-bold leading-tight;
+    }
+
+    h1 {
+        @apply text-4xl md:text-5xl lg:text-6xl;
+    }
+
+    h2 {
+        @apply text-3xl md:text-4xl;
+    }
+
+    h3 {
+        @apply text-xl md:text-2xl;
+    }
+
+    h4 {
+        @apply text-lg md:text-xl;
+    }
+
+    a {
+        @apply transition-colors duration-300;
+    }
+
+    img {
+        @apply max-w-full h-auto;
+    }
+}
+
+/* ===== COMPONENT STYLES ===== */
+@layer components {
+    .container-grid {
+        @apply max-w-grid mx-auto px-5 md:px-8;
+    }
+
+    .section-spacing {
+        @apply py-section;
+    }
+
+    .btn-primary {
+        @apply inline-flex items-center justify-center px-7 py-3.5 bg-sky text-white font-semibold rounded-lg transition-all duration-300 ease-out hover:bg-sky-dark hover:shadow-lg hover:shadow-sky/25 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-sky focus:ring-offset-2 active:translate-y-0;
+    }
+
+    .btn-outline {
+        @apply inline-flex items-center justify-center px-7 py-3.5 border-2 border-sky text-sky font-semibold rounded-lg transition-all duration-300 ease-out hover:bg-sky hover:text-white hover:shadow-lg hover:shadow-sky/25 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-sky focus:ring-offset-2 active:translate-y-0;
+    }
+
+    .btn-white {
+        @apply inline-flex items-center justify-center px-7 py-3.5 bg-white text-navy font-semibold rounded-lg transition-all duration-300 ease-out hover:bg-light-gray hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-navy active:translate-y-0;
+    }
+
+    .btn-outline-white {
+        @apply inline-flex items-center justify-center px-7 py-3.5 border-2 border-white text-white font-semibold rounded-lg transition-all duration-300 ease-out hover:bg-white hover:text-navy hover:shadow-lg hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-navy active:translate-y-0;
+    }
+
+    .card {
+        @apply bg-white rounded-2xl p-8 shadow-sm border border-gray-100 transition-all duration-300 ease-out hover:shadow-xl hover:shadow-gray-200/50 hover:-translate-y-1;
+    }
+
+    .card-icon {
+        @apply w-14 h-14 rounded-xl bg-sky/10 text-sky flex items-center justify-center mb-5;
+    }
+
+    .section-label {
+        @apply text-sky font-semibold text-sm uppercase tracking-widest mb-3;
+    }
+
+    .section-title {
+        @apply text-3xl md:text-4xl font-bold text-navy mb-4;
+    }
+
+    .section-subtitle {
+        @apply text-medium-text text-lg max-w-2xl;
+    }
+
+    .nav-link {
+        @apply text-sm font-medium text-gray-600 relative transition-colors duration-300 hover:text-navy after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-0.5 after:bg-sky after:transition-all after:duration-300 hover:after:w-full;
+    }
+
+    .nav-link.active {
+        @apply text-navy after:w-full;
+    }
+
+    /* Scroll reveal */
+    .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .reveal.revealed {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .reveal-left {
+        opacity: 0;
+        transform: translateX(-30px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .reveal-left.revealed {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .reveal-right {
+        opacity: 0;
+        transform: translateX(30px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .reveal-right.revealed {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    /* Glass effect */
+    .glass {
+        @apply bg-white/80 backdrop-blur-lg;
+    }
+}
