@@ -2,7 +2,7 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- ===== PAGE HERO ===== -->
-<section class="page-hero">
+<section class="page-hero" style="background-image: url('images/businesswoman-networking-using-digital-devices.jpg')">
     <div class="absolute top-10 right-[15%] w-3 h-3 bg-sky rounded-full animate-float opacity-60"></div>
     <div class="container-grid relative z-10">
         <div class="max-w-2xl">

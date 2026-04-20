@@ -50,57 +50,24 @@
                 <div class="relative">
                     <!-- Glow -->
                     <div class="absolute -inset-8 bg-sky/10 rounded-[2rem] blur-3xl animate-pulse-soft"></div>
-                    <div class="relative bg-white/5 backdrop-blur-sm rounded-[2rem] p-8 border border-white/10">
-                        <!-- Dashboard Mock -->
-                        <div class="space-y-5">
-                            <div class="flex items-center gap-3 mb-6">
-                                <div class="w-3 h-3 rounded-full bg-red-400"></div>
-                                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
-                                <div class="w-3 h-3 rounded-full bg-green-400"></div>
-                                <div class="ml-auto text-white/30 text-xs font-mono">analytics_dashboard.py</div>
-                            </div>
-                            <!-- Chart -->
-                            <div class="flex items-end gap-3 h-36">
-                                <div class="flex-1 bg-sky/20 rounded-t-lg transition-all duration-700" style="height:40%"></div>
-                                <div class="flex-1 bg-sky/30 rounded-t-lg transition-all duration-700" style="height:65%"></div>
-                                <div class="flex-1 bg-sky/40 rounded-t-lg transition-all duration-700" style="height:45%"></div>
-                                <div class="flex-1 bg-sky/50 rounded-t-lg transition-all duration-700" style="height:80%"></div>
-                                <div class="flex-1 bg-sky/60 rounded-t-lg transition-all duration-700" style="height:55%"></div>
-                                <div class="flex-1 bg-sky rounded-t-lg transition-all duration-700" style="height:95%"></div>
-                                <div class="flex-1 bg-sky-light rounded-t-lg transition-all duration-700" style="height:70%"></div>
-                            </div>
-                            <!-- Stats -->
-                            <div class="grid grid-cols-3 gap-3">
-                                <div class="bg-white/5 rounded-xl p-4 border border-white/5">
+                    <div class="relative rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl shadow-sky/10">
+                        <img src="images/representation-user-experience-interface-design.jpg" alt="Data analytics and IT solutions dashboard" class="w-full h-auto object-cover">
+                        <!-- Overlay gradient -->
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy/40 via-transparent to-transparent"></div>
+                        <!-- Floating stat badge -->
+                        <div class="absolute bottom-6 left-6 right-6 bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
+                            <div class="grid grid-cols-3 gap-3 text-center">
+                                <div>
                                     <p class="text-sky text-xs mb-1">Revenue</p>
                                     <p class="text-white font-bold text-lg">$2.4M</p>
-                                    <p class="text-green-400 text-xs">↑ 24%</p>
                                 </div>
-                                <div class="bg-white/5 rounded-xl p-4 border border-white/5">
+                                <div>
                                     <p class="text-sky text-xs mb-1">Efficiency</p>
                                     <p class="text-white font-bold text-lg">94.2%</p>
-                                    <p class="text-green-400 text-xs">↑ 12%</p>
                                 </div>
-                                <div class="bg-white/5 rounded-xl p-4 border border-white/5">
+                                <div>
                                     <p class="text-sky text-xs mb-1">Growth</p>
                                     <p class="text-white font-bold text-lg">3.8x</p>
-                                    <p class="text-green-400 text-xs">↑ 31%</p>
-                                </div>
-                            </div>
-                            <!-- Code Lines -->
-                            <div class="space-y-2 font-mono text-xs">
-                                <div class="flex gap-4">
-                                    <span class="text-white/20">01</span>
-                                    <span class="text-sky">def</span>
-                                    <span class="text-white/80">transform_data(</span><span class="text-yellow-300">pipeline</span><span class="text-white/80">):</span>
-                                </div>
-                                <div class="flex gap-4">
-                                    <span class="text-white/20">02</span>
-                                    <span class="text-white/40 ml-6">results = pipeline.</span><span class="text-sky">execute()</span>
-                                </div>
-                                <div class="flex gap-4">
-                                    <span class="text-white/20">03</span>
-                                    <span class="text-white/40 ml-6">return </span><span class="text-green-400">insights</span>
                                 </div>
                             </div>
                         </div>

@@ -141,13 +141,14 @@
     /* ===== PAGE HERO BANNER ===== */
     .page-hero {
         @apply relative py-24 md:py-32 bg-navy overflow-hidden;
+        background-size: cover;
+        background-position: center;
     }
 
     .page-hero::before {
         content: '';
         @apply absolute inset-0;
-        background: radial-gradient(circle at 80% 20%, rgba(46, 144, 250, 0.15) 0%, transparent 50%),
-            radial-gradient(circle at 20% 80%, rgba(46, 144, 250, 0.1) 0%, transparent 50%);
+        background: linear-gradient(to right, rgba(10, 37, 64, 0.92) 0%, rgba(10, 37, 64, 0.8) 50%, rgba(10, 37, 64, 0.7) 100%);
     }
 
     /* ===== SCROLL REVEAL ANIMATIONS ===== */
