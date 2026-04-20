@@ -2,87 +2,88 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- ===== HERO SECTION ===== -->
-<section class="section-spacing bg-gradient-to-br from-white via-light-gray/50 to-white overflow-hidden">
-    <div class="container-grid">
+<section class="relative min-h-[90vh] flex items-center bg-gradient-to-br from-navy via-navy-light to-navy overflow-hidden">
+    <!-- Floating Decorative Shapes -->
+    <div class="absolute top-20 right-[10%] w-72 h-72 bg-sky/10 rounded-full blur-3xl animate-float" data-parallax="0.05"></div>
+    <div class="absolute bottom-20 left-[5%] w-96 h-96 bg-sky/5 rounded-full blur-3xl animate-float-reverse" data-parallax="-0.03"></div>
+    <div class="absolute top-1/2 left-1/2 w-[600px] h-[600px] bg-sky/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 animate-pulse-soft"></div>
+    <!-- Small floating dots -->
+    <div class="absolute top-32 left-[20%] w-3 h-3 bg-sky rounded-full animate-float opacity-60"></div>
+    <div class="absolute top-[60%] right-[15%] w-2 h-2 bg-sky-light rounded-full animate-float-slow opacity-40"></div>
+    <div class="absolute bottom-32 left-[40%] w-4 h-4 bg-sky/30 rounded-full animate-float-reverse opacity-50"></div>
+
+    <div class="container-grid relative z-10 py-20">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <!-- Left Content -->
-            <div class="reveal-left">
-                <span class="section-label">Data &bull; AI &bull; IT Consulting &bull; Staffing</span>
-                <h1 class="text-navy mb-6 leading-[1.1]">
-                    Transforming Data into Decisions.<br>
-                    <span class="text-sky">Talent into Impact.</span>
+            <div>
+                <div class="reveal" data-delay="0">
+                    <span class="inline-flex items-center gap-2 px-5 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sky text-xs font-semibold uppercase tracking-[3px] mb-8 border border-white/10">
+                        <span class="w-2 h-2 bg-sky rounded-full animate-pulse"></span>
+                        Best Data &amp; IT Solution Service
+                    </span>
+                </div>
+                <h1 class="text-white mb-6 leading-[1.1] reveal" data-delay="100">
+                    Transforming Your<br>Business With
+                    <span class="text-gradient"> Data &amp; IT.</span>
                 </h1>
-                <p class="text-medium-text text-lg md:text-xl leading-relaxed mb-8 max-w-lg">
-                    At FASTMINDS, we help organizations unlock the full value of their data, modernize their technology, and scale faster with top-tier IT talent. From advanced analytics to enterprise consulting and staffing, we deliver solutions that drive measurable business outcomes.
+                <p class="text-white/60 text-lg md:text-xl leading-relaxed mb-10 max-w-lg reveal" data-delay="200">
+                    At FASTMINDS, we help organizations unlock the full value of their data, modernize their technology, and scale faster with top-tier IT talent.
                 </p>
-                <div class="flex flex-wrap gap-4">
-                    <a href="staffing.php" class="btn-primary">
-                        Hire Talent
-                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="flex flex-wrap gap-4 reveal" data-delay="300">
+                    <a href="services.php" class="btn-primary">
+                        Discover More
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
                     </a>
-                    <a href="services.php" class="btn-outline">Explore Services</a>
-                </div>
-                <!-- Trust Badges -->
-                <div class="mt-10 pt-8 border-t border-gray-200">
-                    <div class="flex flex-wrap items-center gap-8">
-                        <div>
-                            <p class="text-3xl font-bold text-navy">150+</p>
-                            <p class="text-sm text-medium-text">Projects Delivered</p>
-                        </div>
-                        <div class="w-px h-10 bg-gray-200"></div>
-                        <div>
-                            <p class="text-3xl font-bold text-navy">50+</p>
-                            <p class="text-sm text-medium-text">Enterprise Clients</p>
-                        </div>
-                        <div class="w-px h-10 bg-gray-200"></div>
-                        <div>
-                            <p class="text-3xl font-bold text-navy">98%</p>
-                            <p class="text-sm text-medium-text">Client Satisfaction</p>
-                        </div>
-                    </div>
+                    <a href="contact.php" class="btn-outline-white">
+                        Let's Talk
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                        </svg>
+                    </a>
                 </div>
             </div>
+
             <!-- Right Illustration -->
-            <div class="reveal-right hidden lg:block">
+            <div class="hidden lg:block reveal-right" data-delay="400">
                 <div class="relative">
-                    <div class="absolute -inset-4 bg-sky/5 rounded-3xl blur-3xl"></div>
-                    <div class="relative bg-gradient-to-br from-navy to-navy-light rounded-3xl p-10 shadow-2xl">
-                        <!-- Abstract Data Visualization -->
-                        <div class="space-y-6">
-                            <!-- Dashboard Header -->
-                            <div class="flex items-center gap-3 mb-8">
+                    <!-- Glow -->
+                    <div class="absolute -inset-8 bg-sky/10 rounded-[2rem] blur-3xl animate-pulse-soft"></div>
+                    <div class="relative bg-white/5 backdrop-blur-sm rounded-[2rem] p-8 border border-white/10">
+                        <!-- Dashboard Mock -->
+                        <div class="space-y-5">
+                            <div class="flex items-center gap-3 mb-6">
                                 <div class="w-3 h-3 rounded-full bg-red-400"></div>
                                 <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
                                 <div class="w-3 h-3 rounded-full bg-green-400"></div>
-                                <div class="ml-auto text-white/40 text-xs font-mono">analytics_dashboard.py</div>
+                                <div class="ml-auto text-white/30 text-xs font-mono">analytics_dashboard.py</div>
                             </div>
-                            <!-- Chart Bars -->
-                            <div class="flex items-end gap-3 h-32">
-                                <div class="flex-1 bg-sky/20 rounded-t-lg" style="height:40%"></div>
-                                <div class="flex-1 bg-sky/30 rounded-t-lg" style="height:65%"></div>
-                                <div class="flex-1 bg-sky/40 rounded-t-lg" style="height:45%"></div>
-                                <div class="flex-1 bg-sky/50 rounded-t-lg" style="height:80%"></div>
-                                <div class="flex-1 bg-sky/60 rounded-t-lg" style="height:55%"></div>
-                                <div class="flex-1 bg-sky rounded-t-lg" style="height:95%"></div>
-                                <div class="flex-1 bg-sky-light rounded-t-lg" style="height:70%"></div>
+                            <!-- Chart -->
+                            <div class="flex items-end gap-3 h-36">
+                                <div class="flex-1 bg-sky/20 rounded-t-lg transition-all duration-700" style="height:40%"></div>
+                                <div class="flex-1 bg-sky/30 rounded-t-lg transition-all duration-700" style="height:65%"></div>
+                                <div class="flex-1 bg-sky/40 rounded-t-lg transition-all duration-700" style="height:45%"></div>
+                                <div class="flex-1 bg-sky/50 rounded-t-lg transition-all duration-700" style="height:80%"></div>
+                                <div class="flex-1 bg-sky/60 rounded-t-lg transition-all duration-700" style="height:55%"></div>
+                                <div class="flex-1 bg-sky rounded-t-lg transition-all duration-700" style="height:95%"></div>
+                                <div class="flex-1 bg-sky-light rounded-t-lg transition-all duration-700" style="height:70%"></div>
                             </div>
-                            <!-- Stats Row -->
-                            <div class="grid grid-cols-3 gap-4">
-                                <div class="bg-white/5 rounded-xl p-4">
+                            <!-- Stats -->
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="bg-white/5 rounded-xl p-4 border border-white/5">
                                     <p class="text-sky text-xs mb-1">Revenue</p>
-                                    <p class="text-white font-bold">$2.4M</p>
+                                    <p class="text-white font-bold text-lg">$2.4M</p>
                                     <p class="text-green-400 text-xs">↑ 24%</p>
                                 </div>
-                                <div class="bg-white/5 rounded-xl p-4">
+                                <div class="bg-white/5 rounded-xl p-4 border border-white/5">
                                     <p class="text-sky text-xs mb-1">Efficiency</p>
-                                    <p class="text-white font-bold">94.2%</p>
+                                    <p class="text-white font-bold text-lg">94.2%</p>
                                     <p class="text-green-400 text-xs">↑ 12%</p>
                                 </div>
-                                <div class="bg-white/5 rounded-xl p-4">
+                                <div class="bg-white/5 rounded-xl p-4 border border-white/5">
                                     <p class="text-sky text-xs mb-1">Growth</p>
-                                    <p class="text-white font-bold">3.8x</p>
+                                    <p class="text-white font-bold text-lg">3.8x</p>
                                     <p class="text-green-400 text-xs">↑ 31%</p>
                                 </div>
                             </div>
@@ -107,36 +108,78 @@
                 </div>
             </div>
         </div>
+
+        <!-- Trust Badges -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20 pt-10 border-t border-white/10 reveal" data-delay="500">
+            <div class="text-center">
+                <p class="text-3xl md:text-4xl font-bold text-white" data-counter data-target="150" data-suffix="+">0+</p>
+                <p class="text-white/40 text-sm mt-1">Projects Delivered</p>
+            </div>
+            <div class="text-center">
+                <p class="text-3xl md:text-4xl font-bold text-white" data-counter data-target="50" data-suffix="+">0+</p>
+                <p class="text-white/40 text-sm mt-1">Enterprise Clients</p>
+            </div>
+            <div class="text-center">
+                <p class="text-3xl md:text-4xl font-bold text-white" data-counter data-target="200" data-suffix="+">0+</p>
+                <p class="text-white/40 text-sm mt-1">IT Professionals</p>
+            </div>
+            <div class="text-center">
+                <p class="text-3xl md:text-4xl font-bold text-white" data-counter data-target="98" data-suffix="%">0%</p>
+                <p class="text-white/40 text-sm mt-1">Client Satisfaction</p>
+            </div>
+        </div>
     </div>
 </section>
 
-<!-- ===== WHAT WE DO ===== -->
-<section class="section-spacing bg-white">
-    <div class="container-grid">
-        <div class="text-center mb-14 reveal">
-            <span class="section-label">What We Do</span>
-            <h2 class="section-title">What We Do</h2>
-            <p class="section-subtitle mx-auto">We combine data intelligence, technology expertise, and skilled professionals to deliver end-to-end solutions that help businesses grow efficiently and sustainably.</p>
+<!-- ===== WHAT WE DO (Services) ===== -->
+<section class="section-spacing bg-white relative overflow-hidden">
+    <!-- Decorative -->
+    <div class="absolute top-0 right-0 w-72 h-72 bg-sky/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+    <div class="container-grid relative z-10">
+        <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between mb-14">
+            <div class="reveal">
+                <span class="section-label">Our Services</span>
+                <h2 class="section-title">Innovative IT Services<br>Tailored For Your Success.</h2>
+            </div>
+            <p class="text-medium-text max-w-md mt-4 lg:mt-0 reveal" data-delay="100">
+                We combine data intelligence, technology expertise, and skilled professionals to deliver end-to-end solutions.
+            </p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Card 1 -->
-            <div class="card reveal" style="transition-delay: 0.1s;">
+            <div class="card hover-tilt reveal" data-delay="0">
                 <div class="card-icon">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-navy mb-3">Data & Analytics</h3>
-                <p class="text-medium-text leading-relaxed">We design and deliver powerful data solutions that transform raw data into actionable insights. From interactive dashboards to enterprise data models, we enable faster and smarter decision-making.</p>
-                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-5 hover:gap-3 transition-all duration-300">
-                    Learn more
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <h3 class="text-xl font-bold text-navy mb-3">Data &amp; Analytics</h3>
+                <p class="text-medium-text leading-relaxed text-sm">We design and deliver powerful data solutions that transform raw data into actionable insights. From interactive dashboards to enterprise data models.</p>
+                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                    Read More
+                    <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                 </a>
             </div>
             <!-- Card 2 -->
-            <div class="card reveal" style="transition-delay: 0.2s;">
+            <div class="card hover-tilt reveal" data-delay="100">
+                <div class="card-icon">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-navy mb-3">AI &amp; Automation</h3>
+                <p class="text-medium-text leading-relaxed text-sm">We help businesses reduce manual processes and improve efficiency through intelligent automation, predictive analytics, and process optimization.</p>
+                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                    Read More
+                    <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
+            </div>
+            <!-- Card 3 -->
+            <div class="card hover-tilt reveal" data-delay="200">
                 <div class="card-icon">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -144,25 +187,155 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">IT Consulting</h3>
-                <p class="text-medium-text leading-relaxed">We help organizations align technology with business strategy. Our consulting services focus on building scalable architectures, optimizing systems, and driving digital transformation initiatives.</p>
-                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-5 hover:gap-3 transition-all duration-300">
-                    Learn more
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <p class="text-medium-text leading-relaxed text-sm">We help organizations align technology with business strategy. Our consulting services focus on building scalable architectures and driving digital transformation.</p>
+                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                    Read More
+                    <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
                 </a>
             </div>
-            <!-- Card 3 -->
-            <div class="card reveal" style="transition-delay: 0.3s;">
+            <!-- Card 4 -->
+            <div class="card hover-tilt reveal" data-delay="300">
                 <div class="card-icon">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">IT Staffing</h3>
-                <p class="text-medium-text leading-relaxed">We provide highly skilled IT professionals who are ready to contribute from day one. Whether you need contract, contract-to-hire, or full-time talent, we ensure the right fit for your organization.</p>
-                <a href="staffing.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-5 hover:gap-3 transition-all duration-300">
-                    Learn more
+                <p class="text-medium-text leading-relaxed text-sm">We provide highly skilled IT professionals who are ready to contribute from day one. Whether you need contract, contract-to-hire, or full-time talent.</p>
+                <a href="staffing.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                    Read More
+                    <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
+            </div>
+            <!-- Card 5 -->
+            <div class="card hover-tilt reveal" data-delay="400">
+                <div class="card-icon">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-navy mb-3">Cloud Solutions</h3>
+                <p class="text-medium-text leading-relaxed text-sm">Seamless cloud migration and optimized architecture design on Azure, AWS, and Snowflake for scalable, secure, and efficient operations.</p>
+                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                    Read More
+                    <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
+            </div>
+            <!-- Card 6 -->
+            <div class="card hover-tilt reveal" data-delay="500">
+                <div class="card-icon">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-navy mb-3">Digital Transformation</h3>
+                <p class="text-medium-text leading-relaxed text-sm">Roadmap creation and execution for modernizing your technology landscape, from legacy systems to cutting-edge platforms.</p>
+                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                    Read More
+                    <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== ABOUT PREVIEW ===== -->
+<section class="section-spacing bg-light-gray relative overflow-hidden">
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-sky/5 rounded-full blur-3xl"></div>
+    <div class="container-grid relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <!-- Left: Visual -->
+            <div class="reveal-left">
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-navy to-navy-light rounded-[2rem] p-10 shadow-2xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-sky/20 rounded-full blur-2xl"></div>
+                        <div class="relative z-10 grid grid-cols-2 gap-5">
+                            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center border border-white/10">
+                                <div class="text-4xl font-bold text-white mb-1" data-counter data-target="10" data-suffix="+">0+</div>
+                                <div class="text-sm text-white/60">Years Experience</div>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center border border-white/10">
+                                <div class="text-4xl font-bold text-sky mb-1" data-counter data-target="50" data-suffix="+">0+</div>
+                                <div class="text-sm text-white/60">Enterprise Clients</div>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center border border-white/10">
+                                <div class="text-4xl font-bold text-white mb-1" data-counter data-target="200" data-suffix="+">0+</div>
+                                <div class="text-sm text-white/60">Consultants</div>
+                            </div>
+                            <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center border border-white/10">
+                                <div class="text-4xl font-bold text-sky mb-1" data-counter data-target="5">0</div>
+                                <div class="text-sm text-white/60">Countries Served</div>
+                            </div>
+                        </div>
+                        <!-- Satisfaction Bar -->
+                        <div class="mt-6 bg-white/10 backdrop-blur-sm rounded-2xl p-5 border border-white/10">
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="text-sm font-semibold text-white">Client Satisfaction</span>
+                                <span class="text-sm font-bold text-sky">98%</span>
+                            </div>
+                            <div class="progress-bar-track !bg-white/10">
+                                <div class="progress-bar-fill" style="--progress: 98%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Floating badge -->
+                    <div class="absolute -bottom-4 -right-4 bg-sky text-white rounded-2xl px-6 py-4 shadow-xl shadow-sky/30 animate-float">
+                        <div class="flex items-center gap-3">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                            </svg>
+                            <div>
+                                <p class="font-bold text-sm">Award-Winning</p>
+                                <p class="text-white/80 text-xs">IT Solutions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Text Content -->
+            <div class="reveal-right">
+                <span class="section-label">About Us</span>
+                <h2 class="section-title">Boost Business with Our Innovative IT Solutions</h2>
+                <p class="text-medium-text text-lg leading-relaxed mb-8">
+                    FASTMINDS is a modern consulting and staffing firm focused on delivering data-driven solutions and top IT talent. We help organizations transform their data, optimize their technology, and build high-performing teams.
+                </p>
+                <div class="space-y-4 mb-8">
+                    <div class="flex items-center gap-3">
+                        <div class="w-6 h-6 rounded-full bg-sky/10 flex items-center justify-center shrink-0">
+                            <svg class="w-3.5 h-3.5 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <span class="text-navy font-medium">End-to-end solutions across data, technology, and talent</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-6 h-6 rounded-full bg-sky/10 flex items-center justify-center shrink-0">
+                            <svg class="w-3.5 h-3.5 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <span class="text-navy font-medium">Deep expertise in analytics, cloud, and enterprise systems</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-6 h-6 rounded-full bg-sky/10 flex items-center justify-center shrink-0">
+                            <svg class="w-3.5 h-3.5 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                            </svg>
+                        </div>
+                        <span class="text-navy font-medium">Fast and reliable delivery with scalable engagement models</span>
+                    </div>
+                </div>
+                <a href="about.php" class="btn-primary">
+                    Learn More
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>
@@ -172,120 +345,277 @@
     </div>
 </section>
 
-<!-- ===== WHY FASTMINDS ===== -->
-<section class="section-spacing bg-light-gray">
-    <div class="container-grid">
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="section-spacing bg-white relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-96 h-96 bg-sky/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+    <div class="container-grid relative z-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <!-- Left Content -->
             <div class="reveal-left">
-                <span class="section-label">Why FASTMINDS</span>
-                <h2 class="section-title">Why FASTMINDS</h2>
+                <span class="section-label">Why Choose Us</span>
+                <h2 class="section-title">Elevate Growth With Our IT Solutions For Success.</h2>
                 <p class="text-medium-text text-lg mb-8">We combine deep domain expertise with agile delivery to help you move faster, scale smarter, and achieve measurable outcomes.</p>
-                <div class="space-y-5">
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center shrink-0 mt-0.5">
-                            <svg class="w-5 h-5 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
+
+                <!-- Progress Bars -->
+                <div class="space-y-6 mb-8">
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="font-semibold text-navy text-sm">Data & Analytics Expertise</span>
+                            <span class="font-bold text-sky text-sm">95%</span>
                         </div>
-                        <div>
-                            <h4 class="font-bold text-navy mb-1">End-to-End Solutions</h4>
-                            <p class="text-medium-text text-sm">End-to-end solutions across data, technology, and talent.</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center shrink-0 mt-0.5">
-                            <svg class="w-5 h-5 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <div>
-                            <h4 class="font-bold text-navy mb-1">Deep Expertise</h4>
-                            <p class="text-medium-text text-sm">Deep expertise in analytics, cloud, and enterprise systems.</p>
+                        <div class="progress-bar-track">
+                            <div class="progress-bar-fill" style="--progress: 95%"></div>
                         </div>
                     </div>
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center shrink-0 mt-0.5">
-                            <svg class="w-5 h-5 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="font-semibold text-navy text-sm">Cloud & Infrastructure</span>
+                            <span class="font-bold text-sky text-sm">90%</span>
                         </div>
-                        <div>
-                            <h4 class="font-bold text-navy mb-1">Fast &amp; Reliable Delivery</h4>
-                            <p class="text-medium-text text-sm">Fast and reliable delivery with scalable engagement models.</p>
+                        <div class="progress-bar-track">
+                            <div class="progress-bar-fill" style="--progress: 90%"></div>
                         </div>
                     </div>
-                    <div class="flex items-start gap-4">
-                        <div class="w-10 h-10 rounded-lg bg-sky/10 flex items-center justify-center shrink-0 mt-0.5">
-                            <svg class="w-5 h-5 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    <div>
+                        <div class="flex justify-between mb-2">
+                            <span class="font-semibold text-navy text-sm">Talent Acquisition</span>
+                            <span class="font-bold text-sky text-sm">88%</span>
+                        </div>
+                        <div class="progress-bar-track">
+                            <div class="progress-bar-fill" style="--progress: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="about.php" class="btn-sky-outline">
+                    Learn More
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Right Content -->
+            <div class="reveal-right">
+                <div class="grid grid-cols-2 gap-5">
+                    <div class="bg-light-gray rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-500">
+                        <div class="w-14 h-14 rounded-2xl bg-sky/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-7 h-7 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                             </svg>
                         </div>
-                        <div>
-                            <h4 class="font-bold text-navy mb-1">Industry Experience</h4>
-                            <p class="text-medium-text text-sm">Strong domain experience across healthcare, finance, and enterprise industries.</p>
+                        <h4 class="font-bold text-navy mb-1">24/7 Support</h4>
+                        <p class="text-medium-text text-xs">Round-the-clock assistance</p>
+                    </div>
+                    <div class="bg-light-gray rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-500 mt-8">
+                        <div class="w-14 h-14 rounded-2xl bg-sky/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-7 h-7 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
                         </div>
+                        <h4 class="font-bold text-navy mb-1">Enterprise Security</h4>
+                        <p class="text-medium-text text-xs">SOC 2 compliant processes</p>
+                    </div>
+                    <div class="bg-light-gray rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-500">
+                        <div class="w-14 h-14 rounded-2xl bg-sky/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-7 h-7 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                            </svg>
+                        </div>
+                        <h4 class="font-bold text-navy mb-1">Measurable Impact</h4>
+                        <p class="text-medium-text text-xs">KPI-driven outcomes</p>
+                    </div>
+                    <div class="bg-light-gray rounded-2xl p-8 text-center hover:shadow-xl hover:-translate-y-1 transition-all duration-500 mt-8">
+                        <div class="w-14 h-14 rounded-2xl bg-sky/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-7 h-7 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h4 class="font-bold text-navy mb-1">Global Reach</h4>
+                        <p class="text-medium-text text-xs">5+ countries served</p>
                     </div>
                 </div>
             </div>
-            <!-- Right Illustration -->
-            <div class="reveal-right hidden lg:block">
-                <div class="relative">
-                    <div class="absolute -inset-4 bg-sky/5 rounded-3xl blur-2xl"></div>
-                    <div class="relative bg-white rounded-3xl p-10 shadow-xl border border-gray-100">
-                        <div class="grid grid-cols-2 gap-6">
-                            <div class="bg-light-gray rounded-2xl p-6 text-center">
-                                <div class="text-4xl font-bold text-navy mb-1">150+</div>
-                                <div class="text-sm text-medium-text">Projects</div>
-                            </div>
-                            <div class="bg-light-gray rounded-2xl p-6 text-center">
-                                <div class="text-4xl font-bold text-sky mb-1">50+</div>
-                                <div class="text-sm text-medium-text">Clients</div>
-                            </div>
-                            <div class="bg-light-gray rounded-2xl p-6 text-center">
-                                <div class="text-4xl font-bold text-navy mb-1">200+</div>
-                                <div class="text-sm text-medium-text">Consultants</div>
-                            </div>
-                            <div class="bg-light-gray rounded-2xl p-6 text-center">
-                                <div class="text-4xl font-bold text-sky mb-1">10+</div>
-                                <div class="text-sm text-medium-text">Years</div>
-                            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== WORKING PROCESS ===== -->
+<section class="section-spacing bg-light-gray relative overflow-hidden">
+    <div class="absolute top-10 right-10 w-48 h-48 bg-sky/5 rounded-full blur-3xl animate-float-slow"></div>
+    <div class="container-grid relative z-10">
+        <div class="text-center mb-16 reveal">
+            <span class="section-label">Working Process</span>
+            <h2 class="section-title">How We Work</h2>
+            <p class="section-subtitle mx-auto">Our proven process ensures consistent, high-quality results for every engagement.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Step 1 -->
+            <div class="process-step reveal" data-delay="0">
+                <div class="process-number mb-6 mx-auto">01</div>
+                <h4 class="font-bold text-navy mb-3">Discover &amp; Analyze</h4>
+                <p class="text-medium-text text-sm">We understand your business challenges, data landscape, and strategic objectives.</p>
+            </div>
+            <!-- Step 2 -->
+            <div class="process-step reveal" data-delay="150">
+                <div class="process-number mb-6 mx-auto">02</div>
+                <h4 class="font-bold text-navy mb-3">Strategy &amp; Plan</h4>
+                <p class="text-medium-text text-sm">We design a tailored roadmap with clear milestones and measurable outcomes.</p>
+            </div>
+            <!-- Step 3 -->
+            <div class="process-step reveal" data-delay="300">
+                <div class="process-number mb-6 mx-auto">03</div>
+                <h4 class="font-bold text-navy mb-3">Execute &amp; Build</h4>
+                <p class="text-medium-text text-sm">Our experts implement solutions using agile methodology and best practices.</p>
+            </div>
+            <!-- Step 4 -->
+            <div class="process-step reveal" data-delay="450">
+                <div class="process-number mb-6 mx-auto">04</div>
+                <h4 class="font-bold text-navy mb-3">Deliver &amp; Scale</h4>
+                <p class="text-medium-text text-sm">We deliver results, provide ongoing support, and help you scale for the future.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== MARQUEE TICKER ===== -->
+<section class="py-10 bg-navy overflow-hidden">
+    <div class="marquee-wrapper">
+        <div class="marquee-track">
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> DATA ANALYTICS</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> IT CONSULTING</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> AI AUTOMATION</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> IT STAFFING</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> CLOUD SOLUTIONS</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> DIGITAL TRANSFORMATION</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> POWER BI</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> ENTERPRISE DATA</span>
+            <!-- Duplicate for seamless loop -->
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> DATA ANALYTICS</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> IT CONSULTING</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> AI AUTOMATION</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> IT STAFFING</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> CLOUD SOLUTIONS</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> DIGITAL TRANSFORMATION</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> POWER BI</span>
+            <span class="marquee-item text-white/20"><span class="marquee-dot"></span> ENTERPRISE DATA</span>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CASE STUDIES / PORTFOLIO ===== -->
+<section class="section-spacing bg-white relative overflow-hidden">
+    <div class="container-grid">
+        <div class="text-center mb-14 reveal">
+            <span class="section-label">Case Studies</span>
+            <h2 class="section-title">Explore Our Recent Projects</h2>
+            <p class="section-subtitle mx-auto">See how FASTMINDS has helped organizations achieve measurable results through data and technology.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Case 1 -->
+            <div class="portfolio-card reveal" data-delay="0">
+                <div class="bg-gradient-to-br from-navy to-navy-light h-64 flex items-center justify-center rounded-2xl">
+                    <div class="text-center px-6">
+                        <div class="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
                         </div>
-                        <div class="mt-8 bg-gradient-to-r from-sky/10 to-sky/5 rounded-2xl p-6">
-                            <div class="flex items-center gap-4 mb-4">
-                                <div class="w-10 h-10 rounded-full bg-sky flex items-center justify-center">
-                                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                                    </svg>
-                                </div>
-                                <div>
-                                    <p class="text-sm font-semibold text-navy">Client Satisfaction</p>
-                                    <p class="text-xs text-medium-text">Consistently rated above industry average</p>
-                                </div>
-                            </div>
-                            <div class="w-full bg-gray-200 rounded-full h-2">
-                                <div class="bg-sky rounded-full h-2" style="width: 98%"></div>
-                            </div>
-                            <p class="text-right text-xs text-sky font-semibold mt-1">98%</p>
-                        </div>
+                        <p class="text-white/60 text-sm">Healthcare</p>
                     </div>
                 </div>
+                <div class="portfolio-overlay">
+                    <span class="text-sky text-xs font-semibold uppercase tracking-wider mb-2">Healthcare</span>
+                    <h4 class="text-white font-bold text-lg">Reduced Reporting Time by 40%</h4>
+                    <p class="text-white/60 text-sm mt-2">Automated dashboards and real-time analytics</p>
+                </div>
+            </div>
+            <!-- Case 2 -->
+            <div class="portfolio-card reveal" data-delay="100">
+                <div class="bg-gradient-to-br from-sky-dark to-sky h-64 flex items-center justify-center rounded-2xl">
+                    <div class="text-center px-6">
+                        <div class="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <p class="text-white/60 text-sm">Banking</p>
+                    </div>
+                </div>
+                <div class="portfolio-overlay">
+                    <span class="text-sky text-xs font-semibold uppercase tracking-wider mb-2">Banking &amp; Finance</span>
+                    <h4 class="text-white font-bold text-lg">Enterprise BI Solutions</h4>
+                    <p class="text-white/60 text-sm mt-2">Financial reporting and accuracy improvements</p>
+                </div>
+            </div>
+            <!-- Case 3 -->
+            <div class="portfolio-card reveal" data-delay="200">
+                <div class="bg-gradient-to-br from-navy-light to-navy h-64 flex items-center justify-center rounded-2xl">
+                    <div class="text-center px-6">
+                        <div class="w-16 h-16 rounded-2xl bg-white/10 flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                            </svg>
+                        </div>
+                        <p class="text-white/60 text-sm">Retail</p>
+                    </div>
+                </div>
+                <div class="portfolio-overlay">
+                    <span class="text-sky text-xs font-semibold uppercase tracking-wider mb-2">Retail</span>
+                    <h4 class="text-white font-bold text-lg">AI-Powered Demand Forecasting</h4>
+                    <p class="text-white/60 text-sm mt-2">Reduced overstock by 35% across 200+ stores</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-12 reveal">
+            <a href="case-studies.php" class="btn-sky-outline">
+                View All Case Studies
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== STATS COUNTERS ===== -->
+<section class="py-20 bg-gradient-to-r from-navy via-navy-light to-navy relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+        <div class="absolute top-0 left-1/4 w-64 h-64 bg-sky rounded-full blur-3xl"></div>
+        <div class="absolute bottom-0 right-1/4 w-64 h-64 bg-sky rounded-full blur-3xl"></div>
+    </div>
+    <div class="container-grid relative z-10">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="stat-item reveal" data-delay="0">
+                <div class="counter-number text-white" data-counter data-target="150" data-suffix="K+">0</div>
+                <p class="text-white/50 mt-2">Projects Completed</p>
+            </div>
+            <div class="stat-item reveal" data-delay="100">
+                <div class="counter-number text-white" data-counter data-target="50" data-suffix="M+">0</div>
+                <p class="text-white/50 mt-2">Happy Clients</p>
+            </div>
+            <div class="stat-item reveal" data-delay="200">
+                <div class="counter-number text-white" data-counter data-target="200" data-suffix="+">0</div>
+                <p class="text-white/50 mt-2">Expert Consultants</p>
+            </div>
+            <div class="stat-item reveal" data-delay="300">
+                <div class="counter-number text-white" data-counter data-target="10" data-suffix="+">0</div>
+                <p class="text-white/50 mt-2">Years of Experience</p>
             </div>
         </div>
     </div>
 </section>
 
 <!-- ===== INDUSTRIES ===== -->
-<section class="section-spacing bg-white">
-    <div class="container-grid">
+<section class="section-spacing bg-light-gray relative overflow-hidden">
+    <div class="container-grid relative z-10">
         <div class="text-center mb-14 reveal">
             <span class="section-label">Industries</span>
             <h2 class="section-title">Industries We Serve</h2>
-            <p class="section-subtitle mx-auto">We deliver tailored solutions across multiple industries, helping organizations address unique challenges with data-driven strategies.</p>
+            <p class="section-subtitle mx-auto">We deliver tailored solutions across multiple industries, helping organizations address unique challenges.</p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            <!-- Healthcare -->
-            <div class="card text-center reveal !p-6" style="transition-delay: 0.1s;">
+            <div class="card text-center !p-8 reveal" data-delay="0">
                 <div class="card-icon mx-auto !mb-4">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -293,8 +623,7 @@
                 </div>
                 <h4 class="font-bold text-navy text-sm">Healthcare</h4>
             </div>
-            <!-- Banking -->
-            <div class="card text-center reveal !p-6" style="transition-delay: 0.15s;">
+            <div class="card text-center !p-8 reveal" data-delay="100">
                 <div class="card-icon mx-auto !mb-4">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -302,8 +631,7 @@
                 </div>
                 <h4 class="font-bold text-navy text-sm">Banking</h4>
             </div>
-            <!-- Manufacturing -->
-            <div class="card text-center reveal !p-6" style="transition-delay: 0.2s;">
+            <div class="card text-center !p-8 reveal" data-delay="200">
                 <div class="card-icon mx-auto !mb-4">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
@@ -311,8 +639,7 @@
                 </div>
                 <h4 class="font-bold text-navy text-sm">Manufacturing</h4>
             </div>
-            <!-- Retail -->
-            <div class="card text-center reveal !p-6" style="transition-delay: 0.25s;">
+            <div class="card text-center !p-8 reveal" data-delay="300">
                 <div class="card-icon mx-auto !mb-4">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
@@ -320,8 +647,7 @@
                 </div>
                 <h4 class="font-bold text-navy text-sm">Retail</h4>
             </div>
-            <!-- Enterprise -->
-            <div class="card text-center reveal !p-6" style="transition-delay: 0.3s;">
+            <div class="card text-center !p-8 reveal" data-delay="400">
                 <div class="card-icon mx-auto !mb-4">
                     <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
@@ -333,89 +659,33 @@
     </div>
 </section>
 
-<!-- ===== CASE STUDIES PREVIEW ===== -->
-<section class="section-spacing bg-light-gray">
-    <div class="container-grid">
-        <div class="text-center mb-14 reveal">
-            <span class="section-label">Case Studies</span>
-            <h2 class="section-title">Proven Results</h2>
-            <p class="section-subtitle mx-auto">Explore how FASTMINDS has helped organizations achieve measurable results.</p>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Case 1 -->
-            <div class="card reveal" style="transition-delay: 0.1s;">
-                <div class="bg-sky/10 rounded-xl px-4 py-2 inline-block mb-4">
-                    <span class="text-sky text-xs font-semibold">Healthcare</span>
-                </div>
-                <h3 class="text-lg font-bold text-navy mb-3">Reduced Reporting Time by 40%</h3>
-                <p class="text-medium-text text-sm mb-6">Reduced reporting time by 40% for a healthcare organization by implementing automated dashboards and real-time analytics.</p>
-                <div class="flex items-center gap-6 pt-4 border-t border-gray-100">
-                    <div>
-                        <p class="text-2xl font-bold text-sky">40%</p>
-                        <p class="text-xs text-medium-text">Faster Reports</p>
-                    </div>
-                    <div>
-                        <p class="text-2xl font-bold text-navy">$1.2M</p>
-                        <p class="text-xs text-medium-text">Cost Savings</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Case 2 -->
-            <div class="card reveal" style="transition-delay: 0.2s;">
-                <div class="bg-sky/10 rounded-xl px-4 py-2 inline-block mb-4">
-                    <span class="text-sky text-xs font-semibold">Banking</span>
-                </div>
-                <h3 class="text-lg font-bold text-navy mb-3">Enterprise BI Solutions</h3>
-                <p class="text-medium-text text-sm mb-6">Delivered enterprise BI solutions for financial reporting, improving accuracy and reducing manual effort.</p>
-                <div class="flex items-center gap-6 pt-4 border-t border-gray-100">
-                    <div>
-                        <p class="text-2xl font-bold text-sky">60%</p>
-                        <p class="text-xs text-medium-text">Faster Queries</p>
-                    </div>
-                    <div>
-                        <p class="text-2xl font-bold text-navy">99.9%</p>
-                        <p class="text-xs text-medium-text">Uptime</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Case 3 -->
-            <div class="card reveal" style="transition-delay: 0.3s;">
-                <div class="bg-sky/10 rounded-xl px-4 py-2 inline-block mb-4">
-                    <span class="text-sky text-xs font-semibold">Retail</span>
-                </div>
-                <h3 class="text-lg font-bold text-navy mb-3">AI-Powered Demand Forecasting</h3>
-                <p class="text-medium-text text-sm mb-6">Built predictive models that improved inventory accuracy and reduced overstock by 35% across 200+ stores.</p>
-                <div class="flex items-center gap-6 pt-4 border-t border-gray-100">
-                    <div>
-                        <p class="text-2xl font-bold text-sky">35%</p>
-                        <p class="text-xs text-medium-text">Less Overstock</p>
-                    </div>
-                    <div>
-                        <p class="text-2xl font-bold text-navy">$3.5M</p>
-                        <p class="text-xs text-medium-text">Revenue Gained</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="text-center mt-10 reveal">
-            <a href="case-studies.php" class="btn-outline">View All Case Studies</a>
-        </div>
-    </div>
-</section>
-
 <!-- ===== CTA SECTION ===== -->
 <section class="section-spacing bg-navy relative overflow-hidden">
-    <div class="absolute inset-0 opacity-10">
-        <div class="absolute top-0 right-0 w-96 h-96 bg-sky rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-        <div class="absolute bottom-0 left-0 w-96 h-96 bg-sky rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+    <div class="absolute inset-0">
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-sky/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3"></div>
+        <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-sky/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/3"></div>
     </div>
-    <div class="container-grid relative z-10 text-center">
-        <div class="max-w-2xl mx-auto reveal">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-5">Ready to scale your business with data and talent?</h2>
-            <p class="text-white/60 text-lg mb-8">Partner with FASTMINDS to unlock the full potential of your data and technology investments.</p>
+    <div class="container-grid relative z-10">
+        <div class="max-w-3xl mx-auto text-center reveal">
+            <span class="inline-flex items-center gap-2 px-5 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sky text-xs font-semibold uppercase tracking-[3px] mb-6 border border-white/10">
+                <span class="w-2 h-2 bg-sky rounded-full animate-pulse"></span>
+                Get in Touch
+            </span>
+            <h2 class="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">Ready to Scale Your Business<br>With Data &amp; Talent?</h2>
+            <p class="text-white/50 text-lg mb-10 max-w-xl mx-auto">Partner with FASTMINDS to unlock the full potential of your data and technology investments.</p>
             <div class="flex flex-wrap justify-center gap-4">
-                <a href="staffing.php" class="btn-white">Hire Talent</a>
-                <a href="contact.php" class="btn-outline-white">Start a Project</a>
+                <a href="staffing.php" class="btn-white">
+                    Hire Talent
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
+                <a href="contact.php" class="btn-outline-white">
+                    Start a Project
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    </svg>
+                </a>
             </div>
         </div>
     </div>
