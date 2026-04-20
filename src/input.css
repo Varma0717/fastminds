@@ -207,12 +207,25 @@
 
     .marquee-track {
         @apply inline-flex;
-        animation: marquee 30s linear infinite;
+        animation: marqueeScroll 30s linear infinite;
     }
 
     .marquee-track:hover {
         animation-play-state: paused;
     }
+}
+
+@keyframes marqueeScroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@layer components {
 
     .marquee-item {
         @apply inline-flex items-center gap-6 px-6 text-3xl md:text-5xl font-bold uppercase;

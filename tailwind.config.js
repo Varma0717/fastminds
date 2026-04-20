@@ -18,8 +18,8 @@ module.exports = {
                 'medium-text': '#4A5568',
             },
             fontFamily: {
-                sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-                heading: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                sans: ['DM Sans', 'system-ui', '-apple-system', 'sans-serif'],
+                heading: ['Plus Jakarta Sans', 'system-ui', '-apple-system', 'sans-serif'],
             },
             maxWidth: {
                 'grid': '1200px',
