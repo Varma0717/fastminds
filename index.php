@@ -7,13 +7,13 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <!-- Left Content -->
             <div class="reveal-left">
-                <span class="section-label">IT Consulting & Data Solutions</span>
+                <span class="section-label">Data &bull; AI &bull; IT Consulting &bull; Staffing</span>
                 <h1 class="text-navy mb-6 leading-[1.1]">
                     Transforming Data into Decisions.<br>
                     <span class="text-sky">Talent into Impact.</span>
                 </h1>
                 <p class="text-medium-text text-lg md:text-xl leading-relaxed mb-8 max-w-lg">
-                    At FASTMINDS, we help organizations unlock the full value of their data, modernize their technology, and scale faster with top-tier IT talent.
+                    At FASTMINDS, we help organizations unlock the full value of their data, modernize their technology, and scale faster with top-tier IT talent. From advanced analytics to enterprise consulting and staffing, we deliver solutions that drive measurable business outcomes.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <a href="staffing.php" class="btn-primary">
@@ -115,8 +115,8 @@
     <div class="container-grid">
         <div class="text-center mb-14 reveal">
             <span class="section-label">What We Do</span>
-            <h2 class="section-title">Comprehensive IT Solutions</h2>
-            <p class="section-subtitle mx-auto">We deliver end-to-end technology solutions that drive growth, efficiency, and innovation for modern enterprises.</p>
+            <h2 class="section-title">What We Do</h2>
+            <p class="section-subtitle mx-auto">We combine data intelligence, technology expertise, and skilled professionals to deliver end-to-end solutions that help businesses grow efficiently and sustainably.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Card 1 -->
@@ -127,7 +127,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">Data & Analytics</h3>
-                <p class="text-medium-text leading-relaxed">Turn raw data into strategic insights with our advanced analytics, BI solutions, and data engineering expertise.</p>
+                <p class="text-medium-text leading-relaxed">We design and deliver powerful data solutions that transform raw data into actionable insights. From interactive dashboards to enterprise data models, we enable faster and smarter decision-making.</p>
                 <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-5 hover:gap-3 transition-all duration-300">
                     Learn more
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -144,7 +144,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">IT Consulting</h3>
-                <p class="text-medium-text leading-relaxed">Strategic technology guidance from architecture design to cloud migration and digital transformation.</p>
+                <p class="text-medium-text leading-relaxed">We help organizations align technology with business strategy. Our consulting services focus on building scalable architectures, optimizing systems, and driving digital transformation initiatives.</p>
                 <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-5 hover:gap-3 transition-all duration-300">
                     Learn more
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -160,7 +160,7 @@
                     </svg>
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">IT Staffing</h3>
-                <p class="text-medium-text leading-relaxed">Access top-tier technology talent on demand — from contract specialists to full-time placements.</p>
+                <p class="text-medium-text leading-relaxed">We provide highly skilled IT professionals who are ready to contribute from day one. Whether you need contract, contract-to-hire, or full-time talent, we ensure the right fit for your organization.</p>
                 <a href="staffing.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-5 hover:gap-3 transition-all duration-300">
                     Learn more
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -179,7 +179,7 @@
             <!-- Left Content -->
             <div class="reveal-left">
                 <span class="section-label">Why FASTMINDS</span>
-                <h2 class="section-title">Built for Speed.<br>Designed for Impact.</h2>
+                <h2 class="section-title">Why FASTMINDS</h2>
                 <p class="text-medium-text text-lg mb-8">We combine deep domain expertise with agile delivery to help you move faster, scale smarter, and achieve measurable outcomes.</p>
                 <div class="space-y-5">
                     <div class="flex items-start gap-4">
@@ -190,7 +190,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-navy mb-1">End-to-End Solutions</h4>
-                            <p class="text-medium-text text-sm">From strategy to execution, we handle the entire lifecycle of your technology projects.</p>
+                            <p class="text-medium-text text-sm">End-to-end solutions across data, technology, and talent.</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -201,7 +201,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-navy mb-1">Deep Expertise</h4>
-                            <p class="text-medium-text text-sm">Our team brings 10+ years of hands-on experience across data, cloud, and enterprise IT.</p>
+                            <p class="text-medium-text text-sm">Deep expertise in analytics, cloud, and enterprise systems.</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -211,8 +211,8 @@
                             </svg>
                         </div>
                         <div>
-                            <h4 class="font-bold text-navy mb-1">Fast Delivery</h4>
-                            <p class="text-medium-text text-sm">Agile methodology and streamlined processes mean faster time-to-value for your business.</p>
+                            <h4 class="font-bold text-navy mb-1">Fast &amp; Reliable Delivery</h4>
+                            <p class="text-medium-text text-sm">Fast and reliable delivery with scalable engagement models.</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
@@ -223,7 +223,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-navy mb-1">Industry Experience</h4>
-                            <p class="text-medium-text text-sm">Deep understanding of healthcare, finance, manufacturing, retail, and enterprise sectors.</p>
+                            <p class="text-medium-text text-sm">Strong domain experience across healthcare, finance, and enterprise industries.</p>
                         </div>
                     </div>
                 </div>
@@ -280,8 +280,8 @@
     <div class="container-grid">
         <div class="text-center mb-14 reveal">
             <span class="section-label">Industries</span>
-            <h2 class="section-title">Serving Diverse Sectors</h2>
-            <p class="section-subtitle mx-auto">We bring specialized expertise to the industries that matter most.</p>
+            <h2 class="section-title">Industries We Serve</h2>
+            <p class="section-subtitle mx-auto">We deliver tailored solutions across multiple industries, helping organizations address unique challenges with data-driven strategies.</p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
             <!-- Healthcare -->
@@ -339,7 +339,7 @@
         <div class="text-center mb-14 reveal">
             <span class="section-label">Case Studies</span>
             <h2 class="section-title">Proven Results</h2>
-            <p class="section-subtitle mx-auto">See how we've helped enterprises achieve measurable impact.</p>
+            <p class="section-subtitle mx-auto">Explore how FASTMINDS has helped organizations achieve measurable results.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Case 1 -->
@@ -348,7 +348,7 @@
                     <span class="text-sky text-xs font-semibold">Healthcare</span>
                 </div>
                 <h3 class="text-lg font-bold text-navy mb-3">Reduced Reporting Time by 40%</h3>
-                <p class="text-medium-text text-sm mb-6">Implemented automated BI dashboards for a major healthcare provider, cutting manual reporting from days to hours.</p>
+                <p class="text-medium-text text-sm mb-6">Reduced reporting time by 40% for a healthcare organization by implementing automated dashboards and real-time analytics.</p>
                 <div class="flex items-center gap-6 pt-4 border-t border-gray-100">
                     <div>
                         <p class="text-2xl font-bold text-sky">40%</p>
@@ -365,8 +365,8 @@
                 <div class="bg-sky/10 rounded-xl px-4 py-2 inline-block mb-4">
                     <span class="text-sky text-xs font-semibold">Banking</span>
                 </div>
-                <h3 class="text-lg font-bold text-navy mb-3">Modernized Legacy Data Platform</h3>
-                <p class="text-medium-text text-sm mb-6">Migrated a tier-1 bank's on-premise data warehouse to a cloud-native architecture with real-time analytics.</p>
+                <h3 class="text-lg font-bold text-navy mb-3">Enterprise BI Solutions</h3>
+                <p class="text-medium-text text-sm mb-6">Delivered enterprise BI solutions for financial reporting, improving accuracy and reducing manual effort.</p>
                 <div class="flex items-center gap-6 pt-4 border-t border-gray-100">
                     <div>
                         <p class="text-2xl font-bold text-sky">60%</p>
@@ -412,7 +412,7 @@
     <div class="container-grid relative z-10 text-center">
         <div class="max-w-2xl mx-auto reveal">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-5">Ready to scale your business with data and talent?</h2>
-            <p class="text-white/60 text-lg mb-8">Partner with FASTMINDS and unlock the full potential of your technology investments.</p>
+            <p class="text-white/60 text-lg mb-8">Partner with FASTMINDS to unlock the full potential of your data and technology investments.</p>
             <div class="flex flex-wrap justify-center gap-4">
                 <a href="staffing.php" class="btn-white">Hire Talent</a>
                 <a href="contact.php" class="btn-outline-white">Start a Project</a>

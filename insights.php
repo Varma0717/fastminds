@@ -9,8 +9,8 @@
     <div class="container-grid relative z-10">
         <div class="max-w-2xl reveal">
             <span class="text-sky font-semibold text-sm uppercase tracking-widest mb-3 block">Insights</span>
-            <h1 class="text-white mb-6">Perspectives on <span class="text-sky">Technology & Innovation</span></h1>
-            <p class="text-white/60 text-lg leading-relaxed">Stay ahead with expert insights on data analytics, AI, cloud computing, and the future of enterprise technology.</p>
+            <h1 class="text-white mb-6">Insights & <span class="text-sky">Resources</span></h1>
+            <p class="text-white/60 text-lg leading-relaxed">Stay informed with the latest trends, insights, and best practices in data, analytics, and technology.</p>
         </div>
     </div>
 </section>
@@ -65,8 +65,8 @@
                         <span class="bg-sky/10 text-sky text-xs font-semibold px-3 py-1 rounded-full">Data Analytics</span>
                         <span class="text-medium-text text-xs">April 10, 2026</span>
                     </div>
-                    <h3 class="text-lg font-bold text-navy mb-3">5 Signs Your Data Strategy Needs a Complete Overhaul</h3>
-                    <p class="text-medium-text text-sm mb-4">If your data is siloed, reports take days, and nobody trusts the numbers — it's time for a reset.</p>
+                    <h3 class="text-lg font-bold text-navy mb-3">Top KPIs Every Healthcare Organization Should Track</h3>
+                    <p class="text-medium-text text-sm mb-4">Discover the key performance indicators that drive better patient outcomes and operational efficiency in healthcare.</p>
                     <a href="#" class="inline-flex items-center gap-2 text-sky font-semibold text-sm hover:gap-3 transition-all duration-300">
                         Read more
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -88,8 +88,8 @@
                         <span class="bg-sky/10 text-sky text-xs font-semibold px-3 py-1 rounded-full">Cloud</span>
                         <span class="text-medium-text text-xs">April 5, 2026</span>
                     </div>
-                    <h3 class="text-lg font-bold text-navy mb-3">Cloud Migration: Lessons Learned from 50+ Enterprise Projects</h3>
-                    <p class="text-medium-text text-sm mb-4">The biggest pitfalls and best practices we've discovered helping enterprises move to the cloud.</p>
+                    <h3 class="text-lg font-bold text-navy mb-3">Power BI vs Tableau: Choosing the Right Tool</h3>
+                    <p class="text-medium-text text-sm mb-4">A comprehensive comparison of the two leading BI platforms to help you make the right choice for your organization.</p>
                     <a href="#" class="inline-flex items-center gap-2 text-sky font-semibold text-sm hover:gap-3 transition-all duration-300">
                         Read more
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -111,8 +111,8 @@
                         <span class="bg-sky/10 text-sky text-xs font-semibold px-3 py-1 rounded-full">Staffing</span>
                         <span class="text-medium-text text-xs">March 28, 2026</span>
                     </div>
-                    <h3 class="text-lg font-bold text-navy mb-3">The IT Talent Shortage: How to Build Teams That Scale</h3>
-                    <p class="text-medium-text text-sm mb-4">Practical strategies for attracting and retaining top technology talent in a competitive market.</p>
+                    <h3 class="text-lg font-bold text-navy mb-3">The Role of AI in Modern Business</h3>
+                    <p class="text-medium-text text-sm mb-4">How artificial intelligence is transforming operations, decision-making, and customer experiences across industries.</p>
                     <a href="#" class="inline-flex items-center gap-2 text-sky font-semibold text-sm hover:gap-3 transition-all duration-300">
                         Read more
                         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

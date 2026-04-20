@@ -9,8 +9,8 @@
     <div class="container-grid relative z-10">
         <div class="max-w-2xl reveal">
             <span class="text-sky font-semibold text-sm uppercase tracking-widest mb-3 block">Careers</span>
-            <h1 class="text-white mb-6">Build Your Career at <span class="text-sky">FASTMINDS</span></h1>
-            <p class="text-white/60 text-lg leading-relaxed">Join a team of innovators, problem-solvers, and technology leaders. We're always looking for talented individuals who are passionate about making an impact.</p>
+            <h1 class="text-white mb-6">Careers at <span class="text-sky">FASTMINDS</span></h1>
+            <p class="text-white/60 text-lg leading-relaxed">Join FASTMINDS and be part of a team that is driving innovation through data and technology.</p>
         </div>
     </div>
 </section>
@@ -20,8 +20,8 @@
     <div class="container-grid">
         <div class="text-center mb-14 reveal">
             <span class="section-label">Life at FASTMINDS</span>
-            <h2 class="section-title">Why Join Us</h2>
-            <p class="section-subtitle mx-auto">We believe in empowering our people to do their best work — with the right tools, culture, and opportunities.</p>
+            <h2 class="section-title">Why Work With Us</h2>
+            <p class="section-subtitle mx-auto">We offer opportunities to work on impactful projects, develop your skills, and grow your career in a dynamic environment.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="card reveal text-center" style="transition-delay: 0.1s;">
@@ -87,8 +87,8 @@
     <div class="container-grid">
         <div class="text-center mb-14 reveal">
             <span class="section-label">Open Positions</span>
-            <h2 class="section-title">Current Openings</h2>
-            <p class="section-subtitle mx-auto">Find your next opportunity. We're hiring across multiple departments and locations.</p>
+            <h2 class="section-title">Open Roles</h2>
+            <p class="section-subtitle mx-auto">Explore current job opportunities across data, analytics, and technology roles.</p>
         </div>
         <div class="max-w-3xl mx-auto space-y-4">
             <?php
@@ -136,8 +136,8 @@
     </div>
     <div class="container-grid relative z-10 text-center">
         <div class="max-w-2xl mx-auto reveal">
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-5">Don't see the right role?</h2>
-            <p class="text-white/60 text-lg mb-8">Send us your resume anyway. We're always looking for exceptional talent and new positions open regularly.</p>
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-5">Submit Your Resume</h2>
+            <p class="text-white/60 text-lg mb-8">Don't see the right role? Send us your resume anyway. We're always looking for exceptional talent and new positions open regularly.</p>
             <a href="contact.php" class="btn-white">Send Your Resume</a>
         </div>
     </div>

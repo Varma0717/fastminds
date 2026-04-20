@@ -9,8 +9,8 @@
     <div class="container-grid relative z-10">
         <div class="max-w-2xl reveal">
             <span class="text-sky font-semibold text-sm uppercase tracking-widest mb-3 block">About Us</span>
-            <h1 class="text-white mb-6">We Build the Future of <span class="text-sky">Enterprise Technology</span></h1>
-            <p class="text-white/60 text-lg leading-relaxed">FASTMINDS is a premier IT consulting firm specializing in data analytics, AI solutions, and IT staffing for enterprises that demand excellence.</p>
+            <h1 class="text-white mb-6">About <span class="text-sky">FASTMINDS</span></h1>
+            <p class="text-white/60 text-lg leading-relaxed">FASTMINDS is a modern consulting and staffing firm focused on delivering data-driven solutions and top IT talent.</p>
         </div>
     </div>
 </section>
@@ -21,15 +21,15 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div class="reveal-left">
                 <span class="section-label">Who We Are</span>
-                <h2 class="section-title">A Team of Problem Solvers & Innovators</h2>
+                <h2 class="section-title">Who We Are</h2>
                 <p class="text-medium-text text-lg leading-relaxed mb-6">
-                    Founded with a mission to bridge the gap between complex technology and real business outcomes, FASTMINDS has grown into a trusted partner for enterprises worldwide.
+                    FASTMINDS is a modern consulting and staffing firm focused on delivering data-driven solutions and top IT talent. We help organizations transform their data, optimize their technology, and build high-performing teams.
                 </p>
                 <p class="text-medium-text leading-relaxed mb-6">
-                    We're a team of data engineers, AI specialists, cloud architects, and seasoned consultants who believe that the right technology — implemented the right way — can transform any organization.
+                    We combine deep technical expertise with a strong understanding of business needs. Our approach ensures that every solution we deliver is practical, scalable, and aligned with client goals.
                 </p>
                 <p class="text-medium-text leading-relaxed">
-                    From startups scaling their data infrastructure to Fortune 500 companies modernizing legacy systems, we bring the expertise, agility, and dedication needed to deliver exceptional results.
+                    From startups scaling their data infrastructure to enterprises modernizing their systems, we bring the expertise, agility, and dedication needed to deliver exceptional results.
                 </p>
             </div>
             <div class="reveal-right">
@@ -74,7 +74,7 @@
                 </div>
                 <h3 class="text-2xl font-bold text-navy mb-4">Our Mission</h3>
                 <p class="text-medium-text leading-relaxed">
-                    To empower organizations with cutting-edge technology solutions and world-class IT talent, enabling them to harness the full potential of their data and achieve transformative business outcomes.
+                    Our mission is to empower businesses with intelligent insights, scalable technology solutions, and the right talent to accelerate growth and innovation.
                 </p>
             </div>
             <!-- Vision -->
@@ -87,7 +87,7 @@
                 </div>
                 <h3 class="text-2xl font-bold text-navy mb-4">Our Vision</h3>
                 <p class="text-medium-text leading-relaxed">
-                    To be the most trusted global partner for enterprises seeking to innovate through data, technology, and talent — setting the standard for quality, speed, and impact in IT consulting.
+                    Our vision is to become a trusted partner for organizations seeking excellence in data, AI, and workforce solutions.
                 </p>
             </div>
         </div>
@@ -100,7 +100,7 @@
         <div class="text-center mb-14 reveal">
             <span class="section-label">Our Difference</span>
             <h2 class="section-title">Why Choose FASTMINDS</h2>
-            <p class="section-subtitle mx-auto">We don't just deliver projects — we deliver outcomes that move your business forward.</p>
+            <p class="section-subtitle mx-auto">We combine deep technical expertise with a strong understanding of business needs. Our approach ensures that every solution we deliver is practical, scalable, and aligned with client goals.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="card reveal text-center" style="transition-delay: 0.1s;">

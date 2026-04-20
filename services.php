@@ -9,8 +9,8 @@
     <div class="container-grid relative z-10">
         <div class="max-w-2xl reveal">
             <span class="text-sky font-semibold text-sm uppercase tracking-widest mb-3 block">Our Services</span>
-            <h1 class="text-white mb-6">Technology Solutions That <span class="text-sky">Drive Results</span></h1>
-            <p class="text-white/60 text-lg leading-relaxed">From data strategy to AI-powered automation, we deliver comprehensive IT solutions tailored to your business needs.</p>
+            <h1 class="text-white mb-6">Our <span class="text-sky">Services</span></h1>
+            <p class="text-white/60 text-lg leading-relaxed">FASTMINDS offers a comprehensive range of services across data, AI, and IT consulting to help organizations achieve operational excellence and business growth.</p>
         </div>
     </div>
 </section>
@@ -26,15 +26,15 @@
                     </svg>
                 </div>
                 <h2 class="section-title">Data & Analytics</h2>
-                <p class="text-medium-text text-lg mb-8">Transform raw data into strategic business intelligence that drives informed decision-making and competitive advantage.</p>
+                <p class="text-medium-text text-lg mb-8">We build robust data solutions that enable organizations to gain real-time insights and make informed decisions.</p>
                 <ul class="space-y-4">
                     <li class="flex items-start gap-3">
                         <svg class="w-5 h-5 text-sky mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Data Engineering & Architecture</span>
-                            <p class="text-medium-text text-sm">Build scalable data pipelines and modern data warehouses</p>
+                            <span class="font-semibold text-navy">Power BI and Tableau Dashboards</span>
+                            <p class="text-medium-text text-sm">Interactive dashboards and real-time analytics for data-driven decisions</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -42,8 +42,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Business Intelligence & Reporting</span>
-                            <p class="text-medium-text text-sm">Interactive dashboards and real-time analytics with Power BI, Tableau</p>
+                            <span class="font-semibold text-navy">Data Modeling and Warehousing</span>
+                            <p class="text-medium-text text-sm">Scalable data models and modern data warehouse implementations</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -51,8 +51,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Advanced Analytics</span>
-                            <p class="text-medium-text text-sm">Predictive modeling, statistical analysis, and data science</p>
+                            <span class="font-semibold text-navy">KPI Development and Reporting Frameworks</span>
+                            <p class="text-medium-text text-sm">Custom KPI tracking and automated reporting solutions</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -60,8 +60,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Cloud Data Solutions</span>
-                            <p class="text-medium-text text-sm">AWS, Azure, GCP data lake and warehouse implementations</p>
+                            <span class="font-semibold text-navy">Data Integration and Transformation</span>
+                            <p class="text-medium-text text-sm">End-to-end data pipelines and ETL/ELT solutions</p>
                         </div>
                     </li>
                 </ul>
@@ -166,15 +166,15 @@
                     </svg>
                 </div>
                 <h2 class="section-title">AI & Automation</h2>
-                <p class="text-medium-text text-lg mb-8">Leverage artificial intelligence and intelligent automation to streamline operations and unlock new capabilities.</p>
+                <p class="text-medium-text text-lg mb-8">We help businesses reduce manual processes and improve efficiency through automation and intelligent systems.</p>
                 <ul class="space-y-4">
                     <li class="flex items-start gap-3">
                         <svg class="w-5 h-5 text-sky mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Machine Learning Solutions</span>
-                            <p class="text-medium-text text-sm">Custom ML models for prediction, classification, and optimization</p>
+                            <span class="font-semibold text-navy">Workflow Automation</span>
+                            <p class="text-medium-text text-sm">Streamline business processes with intelligent workflow automation</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -182,8 +182,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Intelligent Process Automation</span>
-                            <p class="text-medium-text text-sm">RPA and AI-driven workflow automation for operational efficiency</p>
+                            <span class="font-semibold text-navy">Predictive Analytics</span>
+                            <p class="text-medium-text text-sm">Leverage data to forecast trends and make proactive decisions</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -191,8 +191,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Natural Language Processing</span>
-                            <p class="text-medium-text text-sm">Text analytics, chatbots, and document intelligence solutions</p>
+                            <span class="font-semibold text-navy">Reporting Automation</span>
+                            <p class="text-medium-text text-sm">Automate report generation and distribution for faster insights</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -200,8 +200,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Computer Vision</span>
-                            <p class="text-medium-text text-sm">Image recognition, quality inspection, and visual analytics</p>
+                            <span class="font-semibold text-navy">Process Optimization</span>
+                            <p class="text-medium-text text-sm">Identify and eliminate inefficiencies across your operations</p>
                         </div>
                     </li>
                 </ul>
@@ -222,15 +222,15 @@
                     </svg>
                 </div>
                 <h2 class="section-title">IT Consulting</h2>
-                <p class="text-medium-text text-lg mb-8">Strategic technology guidance that aligns IT investments with your business goals and accelerates digital transformation.</p>
+                <p class="text-medium-text text-lg mb-8">We provide strategic guidance and technical expertise to help organizations modernize their technology landscape.</p>
                 <ul class="space-y-4">
                     <li class="flex items-start gap-3">
                         <svg class="w-5 h-5 text-sky mt-1 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Digital Transformation Strategy</span>
-                            <p class="text-medium-text text-sm">Roadmap creation and execution for modernizing your technology landscape</p>
+                            <span class="font-semibold text-navy">Cloud Solutions (Azure, AWS, Snowflake)</span>
+                            <p class="text-medium-text text-sm">Seamless cloud migration and optimized architecture design</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -238,8 +238,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Cloud Migration & Architecture</span>
-                            <p class="text-medium-text text-sm">Seamless migration to cloud with optimized architecture design</p>
+                            <span class="font-semibold text-navy">Data Architecture and Governance</span>
+                            <p class="text-medium-text text-sm">Design scalable, secure, and efficient data architectures</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -247,8 +247,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Enterprise Architecture</span>
-                            <p class="text-medium-text text-sm">Design scalable, secure, and efficient technology architectures</p>
+                            <span class="font-semibold text-navy">System Integration</span>
+                            <p class="text-medium-text text-sm">Connect and unify your technology ecosystem for seamless operations</p>
                         </div>
                     </li>
                     <li class="flex items-start gap-3">
@@ -256,8 +256,8 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
                         </svg>
                         <div>
-                            <span class="font-semibold text-navy">Technology Assessment & Optimization</span>
-                            <p class="text-medium-text text-sm">Evaluate and optimize your existing technology stack for performance</p>
+                            <span class="font-semibold text-navy">Digital Transformation Strategies</span>
+                            <p class="text-medium-text text-sm">Roadmap creation and execution for modernizing your technology</p>
                         </div>
                     </li>
                 </ul>

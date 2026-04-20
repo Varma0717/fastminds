@@ -9,8 +9,8 @@
     <div class="container-grid relative z-10">
         <div class="max-w-2xl reveal">
             <span class="text-sky font-semibold text-sm uppercase tracking-widest mb-3 block">Industries</span>
-            <h1 class="text-white mb-6">Deep Domain Expertise Across <span class="text-sky">Key Sectors</span></h1>
-            <p class="text-white/60 text-lg leading-relaxed">We understand the unique challenges and regulations of each industry, delivering tailored solutions that drive measurable results.</p>
+            <h1 class="text-white mb-6">Industries <span class="text-sky">We Serve</span></h1>
+            <p class="text-white/60 text-lg leading-relaxed">We understand that every industry has unique challenges. Our solutions are tailored to meet specific business and operational needs.</p>
         </div>
     </div>
 </section>
@@ -27,7 +27,7 @@
                     </svg>
                 </div>
                 <h2 class="text-2xl font-bold text-navy mb-4">Healthcare</h2>
-                <p class="text-medium-text leading-relaxed mb-6">We help healthcare organizations leverage data and technology to improve patient outcomes, streamline operations, and meet compliance requirements including HIPAA and HL7.</p>
+                <p class="text-medium-text leading-relaxed mb-6">We deliver analytics solutions that improve patient outcomes, optimize operations, and enhance reporting capabilities.</p>
                 <ul class="space-y-3">
                     <li class="flex items-center gap-3 text-medium-text text-sm">
                         <svg class="w-4 h-4 text-sky shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -88,7 +88,7 @@
                     </svg>
                 </div>
                 <h2 class="text-2xl font-bold text-navy mb-4">Banking & Finance</h2>
-                <p class="text-medium-text leading-relaxed mb-6">We deliver secure, compliant technology solutions for financial institutions — from real-time fraud detection to regulatory reporting and digital banking transformation.</p>
+                <p class="text-medium-text leading-relaxed mb-6">We provide data solutions that support financial reporting, risk management, and operational efficiency.</p>
                 <ul class="space-y-3">
                     <li class="flex items-center gap-3 text-medium-text text-sm">
                         <svg class="w-4 h-4 text-sky shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -121,7 +121,7 @@
                     </svg>
                 </div>
                 <h2 class="text-2xl font-bold text-navy mb-4">Manufacturing</h2>
-                <p class="text-medium-text leading-relaxed mb-6">Optimize production, reduce downtime, and improve quality with IoT-driven analytics, predictive maintenance, and supply chain intelligence.</p>
+                <p class="text-medium-text leading-relaxed mb-6">We enable organizations to optimize supply chains, improve production efficiency, and gain operational insights.</p>
                 <ul class="space-y-3">
                     <li class="flex items-center gap-3 text-medium-text text-sm">
                         <svg class="w-4 h-4 text-sky shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -182,7 +182,7 @@
                     </svg>
                 </div>
                 <h2 class="text-2xl font-bold text-navy mb-4">Retail & E-Commerce</h2>
-                <p class="text-medium-text leading-relaxed mb-6">Drive customer engagement, optimize inventory, and personalize experiences with AI-powered retail analytics and omnichannel intelligence.</p>
+                <p class="text-medium-text leading-relaxed mb-6">We help businesses understand customer behavior, optimize sales strategies, and improve performance.</p>
                 <ul class="space-y-3">
                     <li class="flex items-center gap-3 text-medium-text text-sm">
                         <svg class="w-4 h-4 text-sky shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">

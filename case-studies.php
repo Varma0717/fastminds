@@ -9,8 +9,8 @@
     <div class="container-grid relative z-10">
         <div class="max-w-2xl reveal">
             <span class="text-sky font-semibold text-sm uppercase tracking-widest mb-3 block">Case Studies</span>
-            <h1 class="text-white mb-6">Real Results for <span class="text-sky">Real Businesses</span></h1>
-            <p class="text-white/60 text-lg leading-relaxed">Explore how we've helped enterprises across industries solve complex challenges and achieve measurable outcomes.</p>
+            <h1 class="text-white mb-6">Case <span class="text-sky">Studies</span></h1>
+            <p class="text-white/60 text-lg leading-relaxed">Explore how FASTMINDS has helped organizations achieve measurable results.</p>
         </div>
     </div>
 </section>
@@ -26,28 +26,28 @@
                     <div class="bg-sky/10 rounded-xl px-4 py-2 inline-block mb-4">
                         <span class="text-sky text-xs font-semibold">Healthcare</span>
                     </div>
-                    <h2 class="text-2xl font-bold text-navy mb-4">Reduced Reporting Time by 40% for a Major Healthcare Provider</h2>
+                    <h2 class="text-2xl font-bold text-navy mb-4">Healthcare Analytics Transformation</h2>
                     <div class="space-y-6">
                         <div>
                             <h4 class="font-semibold text-navy mb-2 flex items-center gap-2">
                                 <span class="w-6 h-6 rounded-full bg-red-100 text-red-600 flex items-center justify-center text-xs font-bold">P</span>
                                 Problem
                             </h4>
-                            <p class="text-medium-text text-sm">A 500-bed hospital system was spending 3+ days per week on manual report generation. Clinical staff lacked real-time visibility into key patient metrics and operational KPIs.</p>
+                            <p class="text-medium-text text-sm">Manual reporting processes caused delays and inefficiencies.</p>
                         </div>
                         <div>
                             <h4 class="font-semibold text-navy mb-2 flex items-center gap-2">
                                 <span class="w-6 h-6 rounded-full bg-sky/20 text-sky flex items-center justify-center text-xs font-bold">S</span>
                                 Solution
                             </h4>
-                            <p class="text-medium-text text-sm">Implemented automated BI dashboards with real-time data integration from EHR systems. Built ETL pipelines for automated data transformation and created self-service analytics portals.</p>
+                            <p class="text-medium-text text-sm">Developed automated dashboards and integrated data pipelines.</p>
                         </div>
                         <div>
                             <h4 class="font-semibold text-navy mb-2 flex items-center gap-2">
                                 <span class="w-6 h-6 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xs font-bold">R</span>
                                 Result
                             </h4>
-                            <p class="text-medium-text text-sm">Reduced manual reporting time by 40%, saved $1.2M annually in operational costs, and improved clinical decision-making with real-time patient analytics.</p>
+                            <p class="text-medium-text text-sm">Reduced reporting time by 40% and improved decision-making speed.</p>
                         </div>
                     </div>
                 </div>

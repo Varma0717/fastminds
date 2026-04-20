@@ -9,8 +9,8 @@
     <div class="container-grid relative z-10">
         <div class="max-w-2xl reveal">
             <span class="text-sky font-semibold text-sm uppercase tracking-widest mb-3 block">Contact Us</span>
-            <h1 class="text-white mb-6">Let's Start a <span class="text-sky">Conversation</span></h1>
-            <p class="text-white/60 text-lg leading-relaxed">Whether you need talent, technology solutions, or want to explore how we can help — we'd love to hear from you.</p>
+            <h1 class="text-white mb-6">Contact <span class="text-sky">Us</span></h1>
+            <p class="text-white/60 text-lg leading-relaxed">Get in touch with FASTMINDS to discuss your business needs.</p>
         </div>
     </div>
 </section>
