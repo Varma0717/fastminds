@@ -101,7 +101,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                 </svg>
                             </div>
-                            <span class="text-sm text-white/50">United States</span>
+                            <span class="text-sm text-white/50">1515 Mockingbird Lane, Suite 420,<br>Charlotte, NC 28209<br>USA</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <div class="w-9 h-9 rounded-xl bg-white/5 flex items-center justify-center shrink-0 mt-0.5">

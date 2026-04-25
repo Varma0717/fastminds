@@ -122,7 +122,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">Data &amp; Analytics</h3>
                 <p class="text-medium-text leading-relaxed text-sm">We design and deliver powerful data solutions that transform raw data into actionable insights. From interactive dashboards to enterprise data models.</p>
-                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                <a href="service-data-analytics.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
                     Read More
                     <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -138,7 +138,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">AI &amp; Automation</h3>
                 <p class="text-medium-text leading-relaxed text-sm">We help businesses reduce manual processes and improve efficiency through intelligent automation, predictive analytics, and process optimization.</p>
-                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                <a href="service-ai-automation.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
                     Read More
                     <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -155,7 +155,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">IT Consulting</h3>
                 <p class="text-medium-text leading-relaxed text-sm">We help organizations align technology with business strategy. Our consulting services focus on building scalable architectures and driving digital transformation.</p>
-                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                <a href="service-it-consulting.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
                     Read More
                     <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -187,7 +187,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">Cloud Solutions</h3>
                 <p class="text-medium-text leading-relaxed text-sm">Seamless cloud migration and optimized architecture design on Azure, AWS, and Snowflake for scalable, secure, and efficient operations.</p>
-                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                <a href="service-cloud-solutions.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
                     Read More
                     <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -203,7 +203,7 @@
                 </div>
                 <h3 class="text-xl font-bold text-navy mb-3">Digital Transformation</h3>
                 <p class="text-medium-text leading-relaxed text-sm">Roadmap creation and execution for modernizing your technology landscape, from legacy systems to cutting-edge platforms.</p>
-                <a href="services.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
+                <a href="service-digital-transformation.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm mt-6 group/link">
                     Read More
                     <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -554,11 +554,11 @@
     <div class="container-grid relative z-10">
         <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="stat-item reveal" data-delay="0">
-                <div class="counter-number text-white" data-counter data-target="150" data-suffix="K+">0</div>
+                <div class="counter-number text-white" data-counter data-target="100" data-suffix="+">0</div>
                 <p class="text-white/50 mt-2">Projects Completed</p>
             </div>
             <div class="stat-item reveal" data-delay="100">
-                <div class="counter-number text-white" data-counter data-target="50" data-suffix="M+">0</div>
+                <div class="counter-number text-white" data-counter data-target="300" data-suffix="+">0</div>
                 <p class="text-white/50 mt-2">Happy Clients</p>
             </div>
             <div class="stat-item reveal" data-delay="200">
@@ -621,6 +621,37 @@
                     </svg>
                 </div>
                 <h4 class="font-bold text-navy text-sm">Enterprise</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== E-VERIFY ===== -->
+<section class="py-16 bg-white relative overflow-hidden">
+    <div class="absolute top-0 left-0 w-64 h-64 bg-sky/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+    <div class="absolute bottom-0 right-0 w-64 h-64 bg-sky/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+    <div class="container-grid relative z-10">
+        <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-16 justify-center reveal">
+            <!-- Logo -->
+            <div class="shrink-0">
+                <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 flex items-center justify-center hover:shadow-xl transition-shadow duration-300" style="min-width:200px;">
+                    <img src="images/e-verify-logo.svg" alt="E-Verify — U.S. Department of Homeland Security" class="h-16 w-auto" loading="lazy">
+                </div>
+            </div>
+            <!-- Divider (desktop) -->
+            <div class="hidden lg:block w-px h-20 bg-gray-200 shrink-0"></div>
+            <!-- Text -->
+            <div class="text-center lg:text-left max-w-xl">
+                <div class="flex items-center gap-2 justify-center lg:justify-start mb-3">
+                    <div class="w-8 h-8 rounded-lg bg-sky/10 flex items-center justify-center shrink-0">
+                        <svg class="w-4 h-4 text-sky" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <span class="text-xs font-bold text-sky uppercase tracking-[2px]">E-Verify Employer</span>
+                </div>
+                <h3 class="text-xl md:text-2xl font-bold text-navy mb-3 leading-snug">We are an E-Verify Employer</h3>
+                <p class="text-medium-text leading-relaxed">All employees are verified for employment eligibility in compliance with U.S. Department of Homeland Security requirements. We are committed to maintaining a lawful, trusted, and fully compliant workforce.</p>
             </div>
         </div>
     </div>

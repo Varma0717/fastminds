@@ -1,5 +1,35 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF'], '.php');
+
+// ── SEO: Build canonical URL dynamically ─────────────────────────────────
+$_proto     = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+$_base_url  = $_proto . '://' . $_SERVER['HTTP_HOST'];
+$_canonical = rtrim($_base_url, '/') . '/' . ($current_page === 'index' ? '' : $current_page . '.php');
+$_og_image  = rtrim($_base_url, '/') . '/images/og-image.svg';
+
+// ── Per-page SEO defaults (pages can override with $page_description) ────
+$_seo_map = [
+    'index'                          => ['title' => 'FASTMINDS &#8212; IT Consulting, Data Analytics &amp; IT Staffing',   'desc' => 'FASTMINDS is a premier IT consulting firm delivering data analytics, AI automation, cloud solutions, IT staffing, and digital transformation for modern enterprises.'],
+    'about'                          => ['title' => 'About Us | FASTMINDS',                                                  'desc' => 'Learn about FASTMINDS &#8212; our mission, values, and the expert team behind our IT consulting, data analytics, and staffing services in Charlotte, NC.'],
+    'services'                       => ['title' => 'IT Services | FASTMINDS',                                               'desc' => 'Explore FASTMINDS end-to-end IT services: Data &amp; Analytics, AI &amp; Automation, IT Consulting, Cloud Solutions, and Digital Transformation.'],
+    'staffing'                       => ['title' => 'IT Staffing &amp; Talent Solutions | FASTMINDS',                        'desc' => 'FASTMINDS places OPT, H1B, Green Card, and US Citizen IT professionals on contract, contract-to-hire, and full-time roles across the U.S.'],
+    'industries'                     => ['title' => 'Industries We Serve | FASTMINDS',                                       'desc' => 'FASTMINDS delivers tailored IT consulting and staffing solutions for Healthcare, Banking, Manufacturing, Retail, and Enterprise sectors.'],
+    'case-studies'                   => ['title' => 'Case Studies | FASTMINDS',                                              'desc' => 'Explore FASTMINDS client success stories and see how our data, AI, and IT solutions have delivered measurable business results.'],
+    'insights'                       => ['title' => 'Insights &amp; Thought Leadership | FASTMINDS',                         'desc' => 'Read the latest insights on data analytics, AI, cloud technology, and IT staffing trends from the FASTMINDS expert team.'],
+    'careers'                        => ['title' => 'Careers | FASTMINDS',                                                   'desc' => 'Join the FASTMINDS team. Explore open roles in IT consulting, data analytics, and staffing at our Charlotte, NC headquarters.'],
+    'contact'                        => ['title' => 'Contact Us | FASTMINDS',                                                'desc' => 'Get in touch with FASTMINDS in Charlotte, NC. We are ready to discuss your IT consulting, data analytics, or staffing needs.'],
+    'service-data-analytics'         => ['title' => 'Data &amp; Analytics Services | FASTMINDS',                             'desc' => 'Power BI, Tableau, data warehousing, ETL pipelines, and KPI dashboards by FASTMINDS &#8212; turning raw data into a competitive advantage.'],
+    'service-ai-automation'          => ['title' => 'AI &amp; Automation Services | FASTMINDS',                              'desc' => 'Workflow automation, predictive analytics, RPA, and NLP solutions by FASTMINDS to reduce manual effort and accelerate business decisions.'],
+    'service-it-consulting'          => ['title' => 'IT Consulting Services | FASTMINDS',                                    'desc' => 'Strategic IT consulting by FASTMINDS &#8212; cloud strategy, data governance, system integration, and technology roadmaps for modern enterprises.'],
+    'service-cloud-solutions'        => ['title' => 'Cloud Solutions | FASTMINDS',                                           'desc' => 'Azure, AWS, and Snowflake cloud migration, architecture design, and cost optimization by FASTMINDS for scalable, secure operations.'],
+    'service-digital-transformation' => ['title' => 'Digital Transformation | FASTMINDS',                                    'desc' => 'Legacy modernization, process re-engineering, and digital transformation roadmaps by FASTMINDS to help businesses compete in the digital age.'],
+];
+
+$_fallback_title = 'FASTMINDS &#8212; IT Consulting, Data Analytics &amp; Staffing';
+$_fallback_desc  = 'FASTMINDS is a premier IT consulting and staffing firm delivering data analytics, AI automation, cloud solutions, and digital transformation.';
+
+$_meta_title = $_seo_map[$current_page]['title'] ?? (isset($page_title) ? htmlspecialchars($page_title, ENT_QUOTES) . ' | FASTMINDS' : $_fallback_title);
+$_meta_desc  = isset($page_description) ? htmlspecialchars($page_description, ENT_QUOTES) : ($_seo_map[$current_page]['desc'] ?? $_fallback_desc);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,15 +37,66 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="FASTMINDS - Premier IT consulting, data analytics, and staffing solutions. Transform your data into decisions and talent into impact.">
-    <meta name="keywords" content="IT consulting, data analytics, IT staffing, AI automation, digital transformation">
+
+    <!-- Primary SEO -->
+    <title><?php echo $_meta_title; ?></title>
+    <meta name="description" content="<?php echo $_meta_desc; ?>">
+    <meta name="keywords" content="IT consulting, data analytics, IT staffing, AI automation, cloud solutions, digital transformation, Power BI, Tableau, Charlotte NC">
     <meta name="author" content="FASTMINDS">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="FASTMINDS - IT Consulting & Data Solutions">
-    <meta property="og:description" content="Transform your data into decisions and talent into impact with FASTMINDS.">
+    <link rel="canonical" href="<?php echo htmlspecialchars($_canonical, ENT_QUOTES); ?>">
+
+    <!-- Open Graph / Facebook / LinkedIn -->
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="FASTMINDS">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="<?php echo htmlspecialchars($_canonical, ENT_QUOTES); ?>">
+    <meta property="og:title" content="<?php echo $_meta_title; ?>">
+    <meta property="og:description" content="<?php echo $_meta_desc; ?>">
+    <meta property="og:image" content="<?php echo htmlspecialchars($_og_image, ENT_QUOTES); ?>">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="FASTMINDS &#8212; IT Consulting, Data Analytics &amp; IT Staffing">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo $_meta_title; ?>">
+    <meta name="twitter:description" content="<?php echo $_meta_desc; ?>">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($_og_image, ENT_QUOTES); ?>">
+    <meta name="twitter:image:alt" content="FASTMINDS &#8212; IT Consulting, Data Analytics &amp; IT Staffing">
+
+    <!-- Favicons -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/favicon.svg">
     <meta name="theme-color" content="#0A2540">
-    <title><?php echo isset($page_title) ? $page_title . ' | FASTMINDS' : 'FASTMINDS - IT Consulting & Data Solutions'; ?></title>
+
+    <!-- JSON-LD: Organization structured data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "FASTMINDS",
+            "url": "<?php echo htmlspecialchars($_base_url, ENT_QUOTES); ?>",
+            "logo": "<?php echo htmlspecialchars(rtrim($_base_url, '/') . '/images/favicon.svg', ENT_QUOTES); ?>",
+            "description": "Premier IT consulting, data analytics, and staffing firm delivering AI automation, cloud solutions, and digital transformation.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1515 Mockingbird Lane, Suite 420",
+                "addressLocality": "Charlotte",
+                "addressRegion": "NC",
+                "postalCode": "28209",
+                "addressCountry": "US"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+1-234-567-890",
+                "contactType": "customer service"
+            },
+            "sameAs": []
+        }
+    </script>
+
+    <!-- Fonts & Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">

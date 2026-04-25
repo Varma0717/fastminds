@@ -11,7 +11,7 @@
                 IT Staffing
             </span>
             <h1 class="text-white mb-5 reveal" data-delay="100">IT Staffing &amp; <span class="text-gradient">Talent Solutions</span></h1>
-            <p class="text-white/50 text-lg leading-relaxed reveal" data-delay="200">Access highly skilled IT professionals who are ready to contribute from day one.</p>
+            <p class="text-white/50 text-lg leading-relaxed reveal" data-delay="200">Access highly skilled IT professionals who are ready to contribute from day one. We have successfully placed hundreds of OPT students, H1B, Green Card, and US Citizens on client projects across the country.</p>
             <div class="flex items-center gap-3 mt-6 text-white/30 text-sm reveal" data-delay="300">
                 <a href="index.php" class="hover:text-sky transition-colors">Home</a>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

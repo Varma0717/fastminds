@@ -110,7 +110,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-navy mb-1">Visit Us</h4>
-                            <p class="text-medium-text text-sm">United States</p>
+                            <p class="text-medium-text text-sm">1515 Mockingbird Lane, Suite 420,<br>Charlotte, NC 28209<br>USA</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4 p-5 bg-light-gray rounded-2xl hover:shadow-md transition-all duration-300">

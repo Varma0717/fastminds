@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="FASTMINDS — IT Consulting, Data Analytics &amp; Staffing">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0A2540"/>
+            <stop offset="100%" stop-color="#112D4E"/>
+        </linearGradient>
+        <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2E90FA"/>
+            <stop offset="100%" stop-color="#1A6DD4"/>
+        </linearGradient>
+        <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#2E90FA" stop-opacity="0"/>
+            <stop offset="50%" stop-color="#2E90FA"/>
+            <stop offset="100%" stop-color="#2E90FA" stop-opacity="0"/>
+        </linearGradient>
+        <!-- Glow filter for icon -->
+        <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+            <feGaussianBlur stdDeviation="8" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+    <!-- Decorative circles (subtle) -->
+    <circle cx="980" cy="120" r="200" fill="#2E90FA" fill-opacity="0.05"/>
+    <circle cx="1100" cy="500" r="150" fill="#2E90FA" fill-opacity="0.04"/>
+    <circle cx="60" cy="520" r="180" fill="#2E90FA" fill-opacity="0.04"/>
+
+    <!-- Grid dot pattern (top-right corner accent) -->
+    <g fill="#2E90FA" fill-opacity="0.12">
+        <circle cx="900" cy="60" r="2.5"/>
+        <circle cx="930" cy="60" r="2.5"/>
+        <circle cx="960" cy="60" r="2.5"/>
+        <circle cx="990" cy="60" r="2.5"/>
+        <circle cx="1020" cy="60" r="2.5"/>
+        <circle cx="1050" cy="60" r="2.5"/>
+        <circle cx="900" cy="90" r="2.5"/>
+        <circle cx="930" cy="90" r="2.5"/>
+        <circle cx="960" cy="90" r="2.5"/>
+        <circle cx="990" cy="90" r="2.5"/>
+        <circle cx="1020" cy="90" r="2.5"/>
+        <circle cx="1050" cy="90" r="2.5"/>
+        <circle cx="900" cy="120" r="2.5"/>
+        <circle cx="930" cy="120" r="2.5"/>
+        <circle cx="960" cy="120" r="2.5"/>
+        <circle cx="990" cy="120" r="2.5"/>
+        <circle cx="1020" cy="120" r="2.5"/>
+        <circle cx="1050" cy="120" r="2.5"/>
+        <circle cx="900" cy="150" r="2.5"/>
+        <circle cx="930" cy="150" r="2.5"/>
+        <circle cx="960" cy="150" r="2.5"/>
+        <circle cx="990" cy="150" r="2.5"/>
+        <circle cx="1020" cy="150" r="2.5"/>
+        <circle cx="1050" cy="150" r="2.5"/>
+    </g>
+
+    <!-- Logo icon: rounded square with lightning bolt -->
+    <rect x="100" y="210" width="130" height="130" rx="28" fill="url(#iconGrad)" filter="url(#glow)"/>
+    <!-- Lightning bolt (scaled to fit 130x130 box at x=100 y=210) -->
+    <path d="M172 228 L137 283 h22 L143 362 L203 303 H181 Z" fill="white" stroke="none"/>
+
+    <!-- Wordmark: FAST (white) -->
+    <text x="256" y="292" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-size="84" font-weight="800" letter-spacing="-2" fill="#FFFFFF">FAST</text>
+    <!-- Wordmark: MINDS (sky blue) -->
+    <text x="256" y="292" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-size="84" font-weight="800" letter-spacing="-2" fill="none">
+        <!-- measure: FAST ≈ 192px wide at 84px, so MINDS starts at ~448 -->
+    </text>
+    <text x="460" y="292" font-family="'Plus Jakarta Sans', 'Arial Black', sans-serif" font-size="84" font-weight="800" letter-spacing="-2" fill="#2E90FA">MINDS</text>
+
+    <!-- Divider line -->
+    <rect x="100" y="320" width="700" height="2" rx="1" fill="url(#accentLine)"/>
+
+    <!-- Tagline -->
+    <text x="100" y="370" font-family="'DM Sans', 'Arial', sans-serif" font-size="28" font-weight="400" letter-spacing="3" fill="#FFFFFF" fill-opacity="0.65">IT CONSULTING  ·  DATA ANALYTICS  ·  IT STAFFING</text>
+
+    <!-- Bottom-right: website URL pill -->
+    <rect x="830" y="540" width="270" height="48" rx="24" fill="#2E90FA" fill-opacity="0.15" stroke="#2E90FA" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="965" y="571" font-family="'DM Sans', 'Arial', sans-serif" font-size="20" font-weight="500" text-anchor="middle" fill="#2E90FA">fastmindsllc.com</text>
+</svg>
