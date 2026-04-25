@@ -2,7 +2,7 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- ===== PAGE HERO ===== -->
-<section class="page-hero" style="background-image: url('images/representation-user-experience-interface-design.jpg')">
+<section class="page-hero" style="background-image: url('images/AD_images/tableau_dashboards_images/TAB_Sales_Overview.png')">
     <div class="absolute top-10 right-[15%] w-3 h-3 bg-sky rounded-full animate-float opacity-60"></div>
     <div class="absolute bottom-20 left-[10%] w-4 h-4 bg-sky/40 rounded-full animate-float-reverse"></div>
     <div class="container-grid relative z-10">
@@ -99,50 +99,21 @@
                     </svg></a>
             </div>
             <div class="reveal-right hidden lg:block">
-                <div class="bg-gradient-to-br from-navy to-navy-light rounded-[2rem] p-8 shadow-2xl relative overflow-hidden">
+                <div class="bg-gradient-to-br from-navy to-navy-light rounded-[2rem] p-6 shadow-2xl relative overflow-hidden">
                     <div class="absolute top-0 right-0 w-32 h-32 bg-sky/20 rounded-full blur-2xl"></div>
-                    <div class="relative z-10 space-y-4">
-                        <div class="flex items-center gap-3 mb-4">
-                            <div class="w-3 h-3 rounded-full bg-red-400"></div>
-                            <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
-                            <div class="w-3 h-3 rounded-full bg-green-400"></div>
-                            <span class="text-white/40 text-xs ml-2">analytics_dashboard.pbix</span>
-                        </div>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div class="bg-white/5 rounded-xl p-5 border border-white/5">
-                                <div class="flex items-end gap-2 h-20 mb-3">
-                                    <div class="flex-1 bg-sky/30 rounded-t" style="height:45%"></div>
-                                    <div class="flex-1 bg-sky/50 rounded-t" style="height:70%"></div>
-                                    <div class="flex-1 bg-sky/70 rounded-t" style="height:55%"></div>
-                                    <div class="flex-1 bg-sky rounded-t" style="height:90%"></div>
-                                    <div class="flex-1 bg-sky/60 rounded-t" style="height:75%"></div>
+                    <div class="relative z-10">
+                        <p class="text-white/60 text-xs uppercase tracking-[2px] mb-4">Dashboard Snapshots</p>
+                        <div class="space-y-4">
+                            <div class="rounded-xl overflow-hidden border border-white/10 shadow-lg">
+                                <img src="images/AD_images/power_bi_dashboard_images/POWER_BI_Financial_Performance.png" alt="Power BI financial performance dashboard" class="w-full h-48 object-cover" loading="lazy">
+                            </div>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="rounded-xl overflow-hidden border border-white/10 shadow-lg">
+                                    <img src="images/AD_images/tableau_dashboards_images/TAB_Health_AD.png" alt="Tableau health analytics dashboard" class="w-full h-32 object-cover" loading="lazy">
                                 </div>
-                                <p class="text-white/60 text-xs">Revenue Trends</p>
-                            </div>
-                            <div class="bg-white/5 rounded-xl p-5 border border-white/5 text-center flex flex-col justify-center">
-                                <div class="text-3xl font-bold text-sky mb-1">94%</div>
-                                <p class="text-white/60 text-xs mb-3">Data Accuracy</p>
-                                <div class="w-full bg-white/10 rounded-full h-1.5">
-                                    <div class="bg-sky rounded-full h-1.5" style="width:94%"></div>
+                                <div class="rounded-xl overflow-hidden border border-white/10 shadow-lg">
+                                    <img src="images/AD_images/power_bi_dashboard_images/POWER_BI_Sales_Overview.png" alt="Power BI sales overview dashboard" class="w-full h-32 object-cover" loading="lazy">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="bg-white/5 rounded-xl p-4 border border-white/5">
-                            <div class="flex justify-between mb-2">
-                                <span class="text-white/60 text-xs">ETL Pipeline</span>
-                                <span class="text-green-400 text-xs font-semibold">Running</span>
-                            </div>
-                            <div class="w-full bg-white/10 rounded-full h-1.5">
-                                <div class="bg-sky rounded-full h-1.5" style="width:88%"></div>
-                            </div>
-                        </div>
-                        <div class="bg-white/5 rounded-xl p-4 border border-white/5">
-                            <div class="flex justify-between mb-2">
-                                <span class="text-white/60 text-xs">Data Warehouse Sync</span>
-                                <span class="text-sky text-xs font-semibold">Live</span>
-                            </div>
-                            <div class="w-full bg-white/10 rounded-full h-1.5">
-                                <div class="bg-sky rounded-full h-1.5" style="width:100%"></div>
                             </div>
                         </div>
                     </div>

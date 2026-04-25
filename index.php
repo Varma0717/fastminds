@@ -51,23 +51,23 @@
                     <!-- Glow -->
                     <div class="absolute -inset-8 bg-sky/10 rounded-[2rem] blur-3xl animate-pulse-soft"></div>
                     <div class="relative rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl shadow-sky/10">
-                        <img src="images/representation-user-experience-interface-design.jpg" alt="Data analytics and IT solutions dashboard" class="w-full h-auto object-cover">
+                        <img src="images/AD_images/power_bi_dashboard_images/POWER_BI_Sales_Overview.png" alt="Power BI sales dashboard screenshot" class="w-full h-auto object-cover" loading="eager">
                         <!-- Overlay gradient -->
                         <div class="absolute inset-0 bg-gradient-to-t from-navy/40 via-transparent to-transparent"></div>
                         <!-- Floating stat badge -->
                         <div class="absolute bottom-6 left-6 right-6 bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20">
                             <div class="grid grid-cols-3 gap-3 text-center">
                                 <div>
-                                    <p class="text-sky text-xs mb-1">Revenue</p>
-                                    <p class="text-white font-bold text-lg">$2.4M</p>
+                                    <p class="text-sky text-xs mb-1">Total Sales</p>
+                                    <p class="text-white font-bold text-lg">$2.35M</p>
                                 </div>
                                 <div>
-                                    <p class="text-sky text-xs mb-1">Efficiency</p>
-                                    <p class="text-white font-bold text-lg">94.2%</p>
+                                    <p class="text-sky text-xs mb-1">Orders</p>
+                                    <p class="text-white font-bold text-lg">12.8K</p>
                                 </div>
                                 <div>
-                                    <p class="text-sky text-xs mb-1">Growth</p>
-                                    <p class="text-white font-bold text-lg">3.8x</p>
+                                    <p class="text-sky text-xs mb-1">Margin</p>
+                                    <p class="text-white font-bold text-lg">22.2%</p>
                                 </div>
                             </div>
                         </div>

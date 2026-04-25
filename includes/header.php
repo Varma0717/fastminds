@@ -1,11 +1,11 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF'], '.php');
 
-// ── SEO: Build canonical URL dynamically ─────────────────────────────────
-$_proto     = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
-$_base_url  = $_proto . '://' . $_SERVER['HTTP_HOST'];
-$_canonical = rtrim($_base_url, '/') . '/' . ($current_page === 'index' ? '' : $current_page . '.php');
-$_og_image  = rtrim($_base_url, '/') . '/images/og-image.svg';
+// ── SEO: Use production domain for canonical and social URLs ────────────
+$_site_url  = 'https://fastmindsit.com';
+$_base_url  = $_site_url;
+$_canonical = rtrim($_site_url, '/') . '/' . ($current_page === 'index' ? '' : $current_page . '.php');
+$_og_image  = rtrim($_site_url, '/') . '/images/og-image.svg';
 
 // ── Per-page SEO defaults (pages can override with $page_description) ────
 $_seo_map = [
@@ -115,11 +115,11 @@ $_meta_desc  = isset($page_description) ? htmlspecialchars($page_description, EN
         <div class="container-grid">
             <div class="flex items-center justify-between h-10 text-xs">
                 <div class="flex items-center gap-6">
-                    <a href="mailto:info@fastminds.com" class="flex items-center gap-2 text-white/70 hover:text-sky transition-colors">
+                    <a href="mailto:info@fastmindsit.com" class="flex items-center gap-2 text-white/70 hover:text-sky transition-colors">
                         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                         </svg>
-                        info@fastminds.com
+                        info@fastmindsit.com
                     </a>
                     <a href="tel:+1234567890" class="flex items-center gap-2 text-white/70 hover:text-sky transition-colors">
                         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

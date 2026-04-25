@@ -1,4 +1,7 @@
-<?php $page_title = 'Contact Us'; ?>
+<?php
+$page_title = 'Contact Us';
+$form_status = $_GET['status'] ?? '';
+?>
 <?php include 'includes/header.php'; ?>
 
 <!-- ===== PAGE HERO ===== -->
@@ -33,7 +36,23 @@
                 <span class="section-label">Send a Message</span>
                 <h2 class="section-title">Let's Start a Conversation</h2>
                 <p class="text-medium-text mb-8">Fill out the form below and our team will get back to you within 24 hours.</p>
-                <form id="contact-form" class="space-y-6" onsubmit="return false;">
+
+                <?php if ($form_status === 'sent'): ?>
+                    <div class="mb-6 rounded-xl border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
+                        Thank you. Your message has been sent successfully.
+                    </div>
+                <?php elseif (in_array($form_status, ['missing', 'invalid_email', 'invalid_method'], true)): ?>
+                    <div class="mb-6 rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-700">
+                        Please complete all required fields with a valid email address.
+                    </div>
+                <?php elseif ($form_status === 'error'): ?>
+                    <div class="mb-6 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+                        We could not send your message right now. Please try again or email us at info@fastmindsit.com.
+                    </div>
+                <?php endif; ?>
+
+                <form id="contact-form" class="space-y-6" method="post" action="contact-submit.php">
+                    <input type="text" name="website" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <div>
                             <label for="name" class="block text-sm font-semibold text-navy mb-2">Full Name</label>
@@ -87,7 +106,7 @@
                         </div>
                         <div>
                             <h4 class="font-bold text-navy mb-1">Email Us</h4>
-                            <a href="mailto:info@fastmindsllc.com" class="text-medium-text text-sm hover:text-sky transition-colors">info@fastmindsllc.com</a>
+                            <a href="mailto:info@fastmindsit.com" class="text-medium-text text-sm hover:text-sky transition-colors">info@fastmindsit.com</a>
                         </div>
                     </div>
                     <div class="flex items-start gap-4 p-5 bg-light-gray rounded-2xl hover:shadow-md transition-all duration-300">
@@ -156,7 +175,7 @@
         <div class="max-w-3xl mx-auto reveal">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">Prefer to Schedule a Call?</h2>
             <p class="text-white/50 text-lg mb-8">Book a free 30-minute consultation with one of our experts.</p>
-            <a href="mailto:info@fastmindsllc.com" class="btn-white">Schedule a Call <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <a href="mailto:info@fastmindsit.com" class="btn-white">Schedule a Call <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                 </svg></a>
         </div>
