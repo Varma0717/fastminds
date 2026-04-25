@@ -5,7 +5,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
 $_site_url  = 'https://fastmindsit.com';
 $_base_url  = $_site_url;
 $_canonical = rtrim($_site_url, '/') . '/' . ($current_page === 'index' ? '' : $current_page . '.php');
-$_og_image  = rtrim($_site_url, '/') . '/images/og-image.svg';
+$_og_image  = rtrim($_site_url, '/') . '/images/og-image.png';
 
 // ── Per-page SEO defaults (pages can override with $page_description) ────
 $_seo_map = [

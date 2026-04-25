@@ -5,8 +5,8 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
-$toEmail = 'info@fastmindsit.com';
-$fromEmail = 'no-reply@fastmindsit.com';
+$toEmail   = 'info@fastmindsit.com';
+$fromEmail = 'info@fastmindsit.com';
 
 $name = trim($_POST['name'] ?? '');
 $email = trim($_POST['email'] ?? '');
