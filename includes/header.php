@@ -66,8 +66,8 @@ $_meta_desc  = isset($page_description) ? htmlspecialchars($page_description, EN
     <meta name="twitter:image:alt" content="FASTMINDS &#8212; IT Consulting, Data Analytics &amp; IT Staffing">
 
     <!-- Favicons -->
-    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="images/favicon.svg">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
     <meta name="theme-color" content="#0A2540">
 
     <!-- JSON-LD: Organization structured data -->
