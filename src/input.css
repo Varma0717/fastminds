@@ -105,7 +105,7 @@
 
     /* ===== CARDS ===== */
     .card {
-        @apply bg-white rounded-2xl p-8 border border-gray-100 transition-all duration-500 ease-out relative overflow-hidden;
+        @apply bg-white rounded-2xl p-8 border border-gray-200 shadow-md shadow-gray-300/60 transition-all duration-500 ease-out relative overflow-hidden;
     }
 
     .card::after {

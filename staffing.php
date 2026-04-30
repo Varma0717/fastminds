@@ -32,7 +32,7 @@
             <h2 class="section-title">Skilled Professionals Ready to Deliver</h2>
             <p class="section-subtitle mx-auto">We provide pre-vetted professionals across the most in-demand IT roles.</p>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="card text-center hover-tilt reveal" data-delay="0">
                 <div class="card-icon mx-auto"><svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -74,6 +74,13 @@
                     </svg></div>
                 <h4 class="font-bold text-navy mb-2">AI/ML Engineers</h4>
                 <p class="text-medium-text text-sm">Machine learning, NLP, and predictive modeling</p>
+            </div>
+            <div class="card text-center hover-tilt reveal" data-delay="600">
+                <div class="card-icon mx-auto"><svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                    </svg></div>
+                <h4 class="font-bold text-navy mb-2">ServiceNow</h4>
+                <p class="text-medium-text text-sm">ITSM, ITOM, and ServiceNow application development</p>
             </div>
         </div>
     </div>

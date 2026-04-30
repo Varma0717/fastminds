@@ -1,16 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" role="img" aria-label="E-Verify Logo">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;family=DM+Sans:wght@400;500&amp;display=swap');
+        </style>
+    </defs>
     <!-- Background pill -->
     <rect width="220" height="80" rx="8" fill="#ffffff"/>
-    <!-- Left blue block -->
+    <!-- Left blue block: fully rounded -->
     <rect width="72" height="80" rx="8" fill="#003E7E"/>
-    <rect x="64" width="16" height="80" fill="#003E7E"/>
     <!-- "E" letter -->
-    <text x="36" y="52" font-family="Arial Black, Arial, sans-serif" font-size="40" font-weight="900" fill="#ffffff" text-anchor="middle">E</text>
-    <!-- Divider line -->
-    <line x1="80" y1="14" x2="80" y2="66" stroke="#003E7E" stroke-width="1.5"/>
-    <!-- "Verify" text -->
-    <text x="150" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003E7E" text-anchor="middle" letter-spacing="1">Verify</text>
-    <!-- Checkmark + "Employment Eligibility" sub text -->
-    <text x="150" y="54" font-family="Arial, sans-serif" font-size="9.5" fill="#5a8fc2" text-anchor="middle" letter-spacing="0.5">EMPLOYMENT ELIGIBILITY</text>
-    <text x="150" y="66" font-family="Arial, sans-serif" font-size="8.5" fill="#888" text-anchor="middle" letter-spacing="0.3">U.S. Dept. of Homeland Security</text>
+    <text x="36" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="40" font-weight="800" fill="#ffffff" text-anchor="middle">E</text>
+    <!-- "Verify" text - left aligned -->
+    <text x="84" y="36" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700" fill="#003E7E" text-anchor="start" letter-spacing="0.5">Verify</text>
+    <!-- "Employment Eligibility" sub text -->
+    <text x="84" y="52" font-family="'DM Sans', sans-serif" font-size="9.5" fill="#5a8fc2" text-anchor="start" letter-spacing="0.5">EMPLOYMENT ELIGIBILITY</text>
+    <text x="84" y="64" font-family="'DM Sans', sans-serif" font-size="8.5" fill="#888" text-anchor="start" letter-spacing="0.3">U.S. Dept. of Homeland Security</text>
 </svg>
