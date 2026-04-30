@@ -11,9 +11,9 @@
                     <h3 class="text-2xl md:text-3xl font-bold text-white mb-2">Subscribe to Our Newsletter</h3>
                     <p class="text-white/70">Get the latest insights in data, analytics, and technology straight to your inbox.</p>
                 </div>
-                <form class="flex w-full lg:w-auto gap-0" onsubmit="event.preventDefault();">
-                    <input type="email" placeholder="Enter your email" class="flex-1 lg:w-80 px-6 py-4 rounded-l-full bg-white/20 text-white placeholder-white/60 border border-white/30 focus:outline-none focus:bg-white/30 transition-all" required>
-                    <button type="submit" class="px-8 py-4 bg-navy text-white font-semibold rounded-r-full hover:bg-navy-light transition-all duration-300 whitespace-nowrap">
+                <form class="flex flex-col lg:flex-row w-full lg:w-auto gap-0" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Enter your email" class="flex-1 w-full px-6 py-4 lg:rounded-l-full rounded-full lg:rounded-r-none bg-white/20 text-white placeholder-white/60 border border-white/30 focus:outline-none focus:bg-white/30 transition-all" required>
+                    <button type="submit" class="w-full lg:w-auto px-8 py-4 bg-navy text-white font-semibold lg:rounded-r-full rounded-full lg:rounded-l-none hover:bg-navy-light transition-all duration-300 whitespace-nowrap mt-3 lg:mt-0">
                         Subscribe Now
                     </button>
                 </form>
@@ -25,7 +25,7 @@
     <footer class="bg-navy text-white">
         <div class="container-grid pt-20 pb-8">
             <!-- Footer Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pb-16 border-b border-white/10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 pb-16 border-b border-white/10">
                 <!-- Company Info -->
                 <div class="lg:col-span-1">
                     <a href="index.php" class="flex items-center gap-2.5 mb-6">
@@ -109,7 +109,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                 </svg>
                             </div>
-                            <a href="tel:+1234567890" class="text-sm text-white/50 hover:text-sky transition-colors">+1 (234) 567-890</a>
+                            <a href="tel:+13312050142" class="text-sm text-white/50 hover:text-sky transition-colors">+1 331-205-0142</a>
                         </li>
                         <li class="flex items-start gap-3">
                             <div class="w-9 h-9 rounded-xl bg-white/5 flex items-center justify-center shrink-0 mt-0.5">
@@ -120,6 +120,20 @@
                             <a href="mailto:info@fastmindsit.com" class="text-sm text-white/50 hover:text-sky transition-colors">info@fastmindsit.com</a>
                         </li>
                     </ul>
+                </div>
+
+                <!-- E-Verify -->
+                <div class="flex flex-col items-center justify-start lg:justify-center">
+                    <h4 class="text-base font-bold mb-6 relative inline-block">
+                        Compliance
+                        <span class="absolute -bottom-2 left-0 w-8 h-[2px] bg-sky rounded-full"></span>
+                    </h4>
+                    <a href="e-verify.php" class="group flex flex-col items-center gap-4 hover:opacity-80 transition-opacity duration-300">
+                        <div class="bg-white rounded-lg p-3 flex items-center justify-center hover:shadow-lg transition-shadow duration-300">
+                            <img src="images/e-verify-logo.svg" alt="E-Verify — U.S. Department of Homeland Security" class="h-12 w-auto" loading="lazy">
+                        </div>
+                        <span class="text-xs text-white/50 group-hover:text-sky text-center transition-colors">Learn More</span>
+                    </a>
                 </div>
             </div>
 

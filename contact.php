@@ -117,7 +117,7 @@ $form_status = $_GET['status'] ?? '';
                         </div>
                         <div>
                             <h4 class="font-bold text-navy mb-1">Call Us</h4>
-                            <a href="tel:+1234567890" class="text-medium-text text-sm hover:text-sky transition-colors">+1 (234) 567-890</a>
+                            <a href="tel:+13312050142" class="text-medium-text text-sm hover:text-sky transition-colors">+1 331-205-0142</a>
                         </div>
                     </div>
                     <div class="flex items-start gap-4 p-5 bg-light-gray rounded-2xl hover:shadow-md transition-all duration-300">

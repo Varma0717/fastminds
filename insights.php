@@ -50,7 +50,7 @@
                     </div>
                     <h3 class="text-lg font-bold text-navy mb-3 leading-snug">Top KPIs Every Healthcare Organization Should Track</h3>
                     <p class="text-medium-text text-sm leading-relaxed mb-4">Discover the most critical KPIs that help healthcare organizations improve patient outcomes and operational efficiency.</p>
-                    <a href="#" class="inline-flex items-center gap-2 text-sky font-semibold text-sm group/link">
+                    <a href="insight-healthcare-kpis.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm group/link">
                         Read Article
                         <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -75,7 +75,7 @@
                     </div>
                     <h3 class="text-lg font-bold text-navy mb-3 leading-snug">Power BI vs Tableau: Choosing the Right Tool</h3>
                     <p class="text-medium-text text-sm leading-relaxed mb-4">An in-depth comparison to help you select the best analytics platform for your organization's specific needs.</p>
-                    <a href="#" class="inline-flex items-center gap-2 text-sky font-semibold text-sm group/link">
+                    <a href="insight-power-bi-tableau.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm group/link">
                         Read Article
                         <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -100,7 +100,7 @@
                     </div>
                     <h3 class="text-lg font-bold text-navy mb-3 leading-snug">The Role of AI in Modern Business</h3>
                     <p class="text-medium-text text-sm leading-relaxed mb-4">Explore how artificial intelligence is reshaping business operations from automation to advanced analytics.</p>
-                    <a href="#" class="inline-flex items-center gap-2 text-sky font-semibold text-sm group/link">
+                    <a href="insight-ai-business.php" class="inline-flex items-center gap-2 text-sky font-semibold text-sm group/link">
                         Read Article
                         <svg class="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

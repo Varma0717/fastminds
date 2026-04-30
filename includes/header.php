@@ -18,6 +18,7 @@ $_seo_map = [
     'insights'                       => ['title' => 'Insights &amp; Thought Leadership | FASTMINDS',                         'desc' => 'Read the latest insights on data analytics, AI, cloud technology, and IT staffing trends from the FASTMINDS expert team.'],
     'careers'                        => ['title' => 'Careers | FASTMINDS',                                                   'desc' => 'Join the FASTMINDS team. Explore open roles in IT consulting, data analytics, and staffing at our Charlotte, NC headquarters.'],
     'contact'                        => ['title' => 'Contact Us | FASTMINDS',                                                'desc' => 'Get in touch with FASTMINDS in Charlotte, NC. We are ready to discuss your IT consulting, data analytics, or staffing needs.'],
+    'e-verify'                       => ['title' => 'E-Verify Commitment | FASTMINDS',                                       'desc' => 'Learn about FASTMINDS E-Verify commitment and our employment eligibility verification practices.'],
     'service-data-analytics'         => ['title' => 'Data &amp; Analytics Services | FASTMINDS',                             'desc' => 'Power BI, Tableau, data warehousing, ETL pipelines, and KPI dashboards by FASTMINDS &#8212; turning raw data into a competitive advantage.'],
     'service-ai-automation'          => ['title' => 'AI &amp; Automation Services | FASTMINDS',                              'desc' => 'Workflow automation, predictive analytics, RPA, and NLP solutions by FASTMINDS to reduce manual effort and accelerate business decisions.'],
     'service-it-consulting'          => ['title' => 'IT Consulting Services | FASTMINDS',                                    'desc' => 'Strategic IT consulting by FASTMINDS &#8212; cloud strategy, data governance, system integration, and technology roadmaps for modern enterprises.'],
@@ -89,7 +90,7 @@ $_meta_desc  = isset($page_description) ? htmlspecialchars($page_description, EN
             },
             "contactPoint": {
                 "@type": "ContactPoint",
-                "telephone": "+1-234-567-890",
+                "telephone": "+1 331-205-0142",
                 "contactType": "customer service"
             },
             "sameAs": []
@@ -101,6 +102,14 @@ $_meta_desc  = isset($page_description) ? htmlspecialchars($page_description, EN
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        @media (max-width: 767px) {
+            .card::after {
+                width: 100%;
+                background-color: #2e90fa;
+            }
+        }
+    </style>
 </head>
 
 <body class="antialiased">
@@ -121,11 +130,11 @@ $_meta_desc  = isset($page_description) ? htmlspecialchars($page_description, EN
                         </svg>
                         info@fastmindsit.com
                     </a>
-                    <a href="tel:+1234567890" class="flex items-center gap-2 text-white/70 hover:text-sky transition-colors">
+                    <a href="tel:+13312050142" class="flex items-center gap-2 text-white/70 hover:text-sky transition-colors">
                         <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                         </svg>
-                        +1 (234) 567-890
+                        +1 331-205-0142
                     </a>
                 </div>
                 <div class="flex items-center gap-4">
@@ -173,6 +182,7 @@ $_meta_desc  = isset($page_description) ? htmlspecialchars($page_description, EN
                     <a href="case-studies.php" class="nav-link <?php echo $current_page === 'case-studies' ? 'active' : ''; ?>">Case Studies</a>
                     <a href="insights.php" class="nav-link <?php echo $current_page === 'insights' ? 'active' : ''; ?>">Insights</a>
                     <a href="careers.php" class="nav-link <?php echo $current_page === 'careers' ? 'active' : ''; ?>">Careers</a>
+                    <a href="e-verify.php" class="nav-link <?php echo $current_page === 'e-verify' ? 'active' : ''; ?>">E-Verify</a>
                 </div>
 
                 <!-- CTA + Mobile -->
@@ -206,6 +216,7 @@ $_meta_desc  = isset($page_description) ? htmlspecialchars($page_description, EN
                 <a href="case-studies.php" class="text-sm font-medium text-gray-600 hover:text-sky hover:bg-sky/5 px-4 py-3 rounded-xl transition-all <?php echo $current_page === 'case-studies' ? 'text-sky bg-sky/5' : ''; ?>">Case Studies</a>
                 <a href="insights.php" class="text-sm font-medium text-gray-600 hover:text-sky hover:bg-sky/5 px-4 py-3 rounded-xl transition-all <?php echo $current_page === 'insights' ? 'text-sky bg-sky/5' : ''; ?>">Insights</a>
                 <a href="careers.php" class="text-sm font-medium text-gray-600 hover:text-sky hover:bg-sky/5 px-4 py-3 rounded-xl transition-all <?php echo $current_page === 'careers' ? 'text-sky bg-sky/5' : ''; ?>">Careers</a>
+                <a href="e-verify.php" class="text-sm font-medium text-gray-600 hover:text-sky hover:bg-sky/5 px-4 py-3 rounded-xl transition-all <?php echo $current_page === 'e-verify' ? 'text-sky bg-sky/5' : ''; ?>">E-Verify</a>
                 <a href="contact.php" class="btn-primary text-sm text-center mt-3">Let's Talk</a>
             </div>
         </div>
